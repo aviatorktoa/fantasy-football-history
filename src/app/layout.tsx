@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Chat from '@/components/Chat';
 
 export const metadata: Metadata = {
   title: 'Fantasy Football Dynasty | League History & Analytics',
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body className="gradient-dark min-h-screen">
         <div className="noise-overlay" />
         {children}
+        <Chat />
       </body>
     </html>
   );
