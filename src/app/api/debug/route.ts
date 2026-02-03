@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
-import { YahooTokens, refreshTokens } from '@/lib/yahoo';
-
-const YAHOO_API_BASE = 'https://fantasysports.yahooapis.com/fantasy/v2';
+import { YahooTokens, refreshTokens, getSeasonData, League } from '@/lib/yahoo';
 
 async function getValidTokens(): Promise<YahooTokens | null> {
   const cookieStore = await cookies();
@@ -47,40 +45,33 @@ export async function GET(request: NextRequest) {
   }
 
   const leagueKey = request.nextUrl.searchParams.get('league_key') || '449.l.668900';
-  const week = request.nextUrl.searchParams.get('week') || '1';
 
   try {
-    // Fetch raw scoreboard for one week
-    const url = `${YAHOO_API_BASE}/league/${leagueKey}/scoreboard;week=${week}?format=json`;
-    const response = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${tokens.access_token}`,
-        Accept: 'application/json',
-      },
-    });
+    const league: League = {
+      league_key: leagueKey,
+      league_id: leagueKey.split('.l.')[1],
+      name: 'test',
+      season: '2024',
+      num_teams: 12,
+      scoring_type: 'head',
+      end_week: 17,
+    };
 
-    if (!response.ok) {
-      const err = await response.text();
-      return NextResponse.json({ error: true, status: response.status, body: err.substring(0, 1000) });
-    }
-
-    const data = await response.json();
-    const matchups = data.fantasy_content.league[1].scoreboard[0].matchups;
-
-    // Get first matchup raw structure
-    const firstMatchup = matchups['0'];
+    const seasonData = await getSeasonData(tokens.access_token, league);
 
     return NextResponse.json({
       success: true,
-      matchups_keys: Object.keys(matchups),
-      first_matchup_keys: firstMatchup ? Object.keys(firstMatchup) : [],
-      first_matchup_raw: JSON.stringify(firstMatchup).substring(0, 3000),
+      standings_count: seasonData.standings.length,
+      matchups_count: seasonData.matchups.length,
+      champion: seasonData.champion?.team_name,
+      standings_sample: seasonData.standings.slice(0, 3),
+      matchups_sample: seasonData.matchups.slice(0, 3),
     });
   } catch (error: any) {
     return NextResponse.json({
       error: true,
       message: error.message,
-      stack: error.stack?.substring(0, 500),
+      stack: error.stack?.substring(0, 1000),
     });
   }
 }
