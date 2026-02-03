@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
-import { YahooTokens, refreshTokens, getSeasonData, League } from '@/lib/yahoo';
+import { YahooTokens, refreshTokens, getStandings, getMatchups, League } from '@/lib/yahoo';
+
+const YAHOO_API_BASE = 'https://fantasysports.yahooapis.com/fantasy/v2';
 
 async function getValidTokens(): Promise<YahooTokens | null> {
   const cookieStore = await cookies();
@@ -38,6 +40,94 @@ async function getValidTokens(): Promise<YahooTokens | null> {
   return tokens;
 }
 
+async function yahooFetch(endpoint: string, accessToken: string) {
+  const url = `${YAHOO_API_BASE}${endpoint}`;
+  const response = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      Accept: 'application/json',
+    },
+  });
+  if (!response.ok) {
+    const err = await response.text();
+    throw new Error(`Yahoo ${response.status}: ${err.substring(0, 200)}`);
+  }
+  return response.json();
+}
+
+// Fetch transactions for a league
+async function getTransactions(accessToken: string, leagueKey: string) {
+  try {
+    const data = await yahooFetch(
+      `/league/${leagueKey}/transactions?format=json`,
+      accessToken
+    );
+    const transactions = data.fantasy_content.league[1].transactions;
+    const result: any[] = [];
+
+    for (const val of Object.values(transactions) as any[]) {
+      if (typeof val === 'object' && val.transaction) {
+        const t = val.transaction;
+        const meta = Array.isArray(t[0]) ? t[0] : [t[0]];
+        const info = meta[0] || {};
+        const players = t[1]?.players;
+
+        const playerList: any[] = [];
+        if (players) {
+          for (const pv of Object.values(players) as any[]) {
+            if (typeof pv === 'object' && pv.player) {
+              const pInfo = pv.player[0];
+              const pTrans = pv.player[1]?.transaction_data;
+              const nameObj = Array.isArray(pInfo) ? pInfo.find((p: any) => p.name) : null;
+              playerList.push({
+                name: nameObj?.name?.full || 'Unknown',
+                type: pTrans?.type || (Array.isArray(pTrans) ? pTrans[0]?.type : ''),
+                destination_team: pTrans?.destination_team_name || (Array.isArray(pTrans) ? pTrans[0]?.destination_team_name : ''),
+                source_type: pTrans?.source_type || (Array.isArray(pTrans) ? pTrans[0]?.source_type : ''),
+                faab_bid: info.faab_bid,
+              });
+            }
+          }
+        }
+
+        result.push({
+          type: info.type,
+          timestamp: info.timestamp,
+          status: info.status,
+          faab_bid: info.faab_bid,
+          trader_team_name: info.trader_team_name,
+          tradee_team_name: info.tradee_team_name,
+          players: playerList,
+        });
+      }
+    }
+    return result;
+  } catch {
+    return [];
+  }
+}
+
+// Fetch draft results for a league
+async function getDraftResults(accessToken: string, leagueKey: string) {
+  try {
+    const data = await yahooFetch(
+      `/league/${leagueKey}/draftresults?format=json`,
+      accessToken
+    );
+    const picks = data.fantasy_content.league[1].draft_results;
+    const result: any[] = [];
+
+    for (const val of Object.values(picks) as any[]) {
+      if (typeof val === 'object' && val.draft_result) {
+        result.push(val.draft_result);
+      }
+    }
+    return result;
+  } catch {
+    return [];
+  }
+}
+
 export async function GET(request: NextRequest) {
   const tokens = await getValidTokens();
   if (!tokens) {
@@ -45,27 +135,45 @@ export async function GET(request: NextRequest) {
   }
 
   const leagueKey = request.nextUrl.searchParams.get('league_key') || '449.l.668900';
+  const mode = request.nextUrl.searchParams.get('mode') || 'full';
+  const endWeek = parseInt(request.nextUrl.searchParams.get('weeks') || '17');
 
   try {
-    const league: League = {
-      league_key: leagueKey,
-      league_id: leagueKey.split('.l.')[1],
-      name: 'test',
-      season: '2024',
-      num_teams: 12,
-      scoring_type: 'head',
-      end_week: 17,
-    };
+    if (mode === 'standings') {
+      const standings = await getStandings(tokens.access_token, leagueKey);
+      return NextResponse.json({ success: true, standings });
+    }
 
-    const seasonData = await getSeasonData(tokens.access_token, league);
+    if (mode === 'matchups') {
+      const matchups = await getMatchups(tokens.access_token, leagueKey, endWeek);
+      return NextResponse.json({ success: true, matchups_count: matchups.length, matchups });
+    }
+
+    if (mode === 'transactions') {
+      const transactions = await getTransactions(tokens.access_token, leagueKey);
+      return NextResponse.json({ success: true, count: transactions.length, transactions });
+    }
+
+    if (mode === 'draft') {
+      const draft = await getDraftResults(tokens.access_token, leagueKey);
+      return NextResponse.json({ success: true, count: draft.length, draft });
+    }
+
+    // Full mode: standings + matchups + transactions + draft
+    const [standings, matchups, transactions, draft] = await Promise.all([
+      getStandings(tokens.access_token, leagueKey),
+      getMatchups(tokens.access_token, leagueKey, endWeek),
+      getTransactions(tokens.access_token, leagueKey),
+      getDraftResults(tokens.access_token, leagueKey),
+    ]);
 
     return NextResponse.json({
       success: true,
-      standings_count: seasonData.standings.length,
-      matchups_count: seasonData.matchups.length,
-      champion: seasonData.champion?.team_name,
-      standings_sample: seasonData.standings.slice(0, 3),
-      matchups_sample: seasonData.matchups.slice(0, 3),
+      league_key: leagueKey,
+      standings,
+      matchups,
+      transactions,
+      draft,
     });
   } catch (error: any) {
     return NextResponse.json({
