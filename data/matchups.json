@@ -1,0 +1,257 @@
+{
+  "leagueName": "The EZ League",
+  "leagueId": "ezldolphins",
+  "lastUpdated": "2026-02-02",
+  "description": "Weekly matchups and scores for all seasons",
+  "seasons": {
+    "2025": {
+      "leagueYahooId": "107439",
+      "regularSeasonWeeks": 14,
+      "playoffWeeks": [15, 16, 17],
+      "teams": {
+        "1": "Little Strong Women",
+        "2": "DocBallerPHDs",
+        "3": "Fumblerooskis",
+        "4": "Hahahahahahaha's",
+        "5": "Lineman Rule",
+        "6": "MexiCAN Gnomes",
+        "7": "Mighty Hamsters",
+        "8": "MYBITCHES",
+        "9": "Straight Cash Homiez",
+        "10": "The Majdic",
+        "11": "The Practice Blows",
+        "12": "Victorious Secret"
+      },
+      "schedules": {
+        "Little Strong Women": {
+          "teamId": 1,
+          "regularSeason": [
+            {"week": 1, "opponent": "Victorious Secret", "result": "Loss", "score": "94.96 - 108.14"},
+            {"week": 2, "opponent": "MYBITCHES", "result": "Win", "score": "130.70 - 99.38"},
+            {"week": 3, "opponent": "Lineman Rule", "result": "Win", "score": "109.82 - 99.14"},
+            {"week": 4, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "86.78 - 126.28"},
+            {"week": 5, "opponent": "Straight Cash Homiez", "result": "Win", "score": "97.74 - 97.42"},
+            {"week": 6, "opponent": "Mighty Hamsters", "result": "Win", "score": "111.00 - 70.98"},
+            {"week": 7, "opponent": "Hahahahahahaha's", "result": "Win", "score": "115.56 - 85.26"},
+            {"week": 8, "opponent": "Fumblerooskis", "result": "Win", "score": "112.92 - 108.16"},
+            {"week": 9, "opponent": "DocBallerPHDs", "result": "Win", "score": "122.64 - 82.08"},
+            {"week": 10, "opponent": "The Majdic", "result": "Win", "score": "163.04 - 116.20"},
+            {"week": 11, "opponent": "The Practice Blows", "result": "Loss", "score": "83.82 - 88.64"},
+            {"week": 12, "opponent": "Lineman Rule", "result": "Loss", "score": "88.64 - 119.38"},
+            {"week": 13, "opponent": "Fumblerooskis", "result": "Win", "score": "118.54 - 107.26"},
+            {"week": 14, "opponent": "DocBallerPHDs", "result": "Loss", "score": "62.54 - 95.32"}
+          ]
+        },
+        "DocBallerPHDs": {
+          "teamId": 2,
+          "regularSeason": [
+            {"week": 1, "opponent": "The Majdic", "result": "Win", "score": "110.92 - 97.72"},
+            {"week": 2, "opponent": "The Practice Blows", "result": "Loss", "score": "103.74 - 138.00"},
+            {"week": 3, "opponent": "Fumblerooskis", "result": "Loss", "score": "108.22 - 111.54"},
+            {"week": 4, "opponent": "Hahahahahahaha's", "result": "Win", "score": "126.68 - 117.32"},
+            {"week": 5, "opponent": "Mighty Hamsters", "result": "Win", "score": "130.18 - 116.04"},
+            {"week": 6, "opponent": "Victorious Secret", "result": "Win", "score": "135.78 - 69.80"},
+            {"week": 7, "opponent": "MYBITCHES", "result": "Win", "score": "149.62 - 99.10"},
+            {"week": 8, "opponent": "Lineman Rule", "result": "Win", "score": "115.98 - 115.38"},
+            {"week": 9, "opponent": "Little Strong Women", "result": "Loss", "score": "82.08 - 122.64"},
+            {"week": 10, "opponent": "Straight Cash Homiez", "result": "Win", "score": "94.80 - 85.94"},
+            {"week": 11, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "112.66 - 69.16"},
+            {"week": 12, "opponent": "Fumblerooskis", "result": "Win", "score": "138.58 - 92.22"},
+            {"week": 13, "opponent": "The Practice Blows", "result": "Loss", "score": "100.74 - 116.66"},
+            {"week": 14, "opponent": "Little Strong Women", "result": "Win", "score": "95.32 - 62.54"}
+          ]
+        },
+        "Fumblerooskis": {
+          "teamId": 3,
+          "regularSeason": [
+            {"week": 1, "opponent": "The Practice Blows", "result": "Win", "score": "113.58 - 77.28"},
+            {"week": 2, "opponent": "The Majdic", "result": "Loss", "score": "67.14 - 130.60"},
+            {"week": 3, "opponent": "DocBallerPHDs", "result": "Win", "score": "111.54 - 108.22"},
+            {"week": 4, "opponent": "Mighty Hamsters", "result": "Win", "score": "131.70 - 91.68"},
+            {"week": 5, "opponent": "Hahahahahahaha's", "result": "Loss", "score": "79.20 - 81.00"},
+            {"week": 6, "opponent": "MYBITCHES", "result": "Win", "score": "126.34 - 79.86"},
+            {"week": 7, "opponent": "Victorious Secret", "result": "Win", "score": "91.74 - 86.34"},
+            {"week": 8, "opponent": "Little Strong Women", "result": "Loss", "score": "108.16 - 112.92"},
+            {"week": 9, "opponent": "Lineman Rule", "result": "Loss", "score": "102.44 - 136.90"},
+            {"week": 10, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "92.72 - 84.42"},
+            {"week": 11, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "82.90 - 83.54"},
+            {"week": 12, "opponent": "DocBallerPHDs", "result": "Loss", "score": "92.22 - 138.58"},
+            {"week": 13, "opponent": "Little Strong Women", "result": "Loss", "score": "107.26 - 118.54"},
+            {"week": 14, "opponent": "The Majdic", "result": "Win", "score": "167.98 - 146.50"}
+          ]
+        },
+        "Hahahahahahaha's": {
+          "teamId": 4,
+          "regularSeason": [
+            {"week": 1, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "101.16 - 81.72"},
+            {"week": 2, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "84.52 - 110.68"},
+            {"week": 3, "opponent": "Mighty Hamsters", "result": "Loss", "score": "91.02 - 114.92"},
+            {"week": 4, "opponent": "DocBallerPHDs", "result": "Loss", "score": "117.32 - 126.68"},
+            {"week": 5, "opponent": "Fumblerooskis", "result": "Win", "score": "81.00 - 79.20"},
+            {"week": 6, "opponent": "Lineman Rule", "result": "Loss", "score": "96.30 - 159.94"},
+            {"week": 7, "opponent": "Little Strong Women", "result": "Loss", "score": "85.26 - 115.56"},
+            {"week": 8, "opponent": "The Practice Blows", "result": "Win", "score": "81.42 - 65.58"},
+            {"week": 9, "opponent": "The Majdic", "result": "Win", "score": "108.82 - 88.66"},
+            {"week": 10, "opponent": "Victorious Secret", "result": "Loss", "score": "92.64 - 115.68"},
+            {"week": 11, "opponent": "MYBITCHES", "result": "Win", "score": "124.68 - 50.34"},
+            {"week": 12, "opponent": "Mighty Hamsters", "result": "Loss", "score": "95.76 - 107.74"},
+            {"week": 13, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "87.94 - 107.18"},
+            {"week": 14, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "88.84 - 100.36"}
+          ]
+        },
+        "Lineman Rule": {
+          "teamId": 5,
+          "regularSeason": [
+            {"week": 1, "opponent": "MYBITCHES", "result": "Loss", "score": "66.62 - 103.02"},
+            {"week": 2, "opponent": "Victorious Secret", "result": "Loss", "score": "64.28 - 71.54"},
+            {"week": 3, "opponent": "Little Strong Women", "result": "Loss", "score": "99.14 - 109.82"},
+            {"week": 4, "opponent": "Straight Cash Homiez", "result": "Win", "score": "139.54 - 126.20"},
+            {"week": 5, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "93.78 - 102.64"},
+            {"week": 6, "opponent": "Hahahahahahaha's", "result": "Win", "score": "159.94 - 96.30"},
+            {"week": 7, "opponent": "Mighty Hamsters", "result": "Win", "score": "119.76 - 104.28"},
+            {"week": 8, "opponent": "DocBallerPHDs", "result": "Loss", "score": "115.38 - 115.98"},
+            {"week": 9, "opponent": "Fumblerooskis", "result": "Win", "score": "136.90 - 102.44"},
+            {"week": 10, "opponent": "The Practice Blows", "result": "Loss", "score": "72.70 - 114.30"},
+            {"week": 11, "opponent": "The Majdic", "result": "Win", "score": "128.32 - 95.74"},
+            {"week": 12, "opponent": "Little Strong Women", "result": "Win", "score": "119.38 - 88.64"},
+            {"week": 13, "opponent": "Victorious Secret", "result": "Win", "score": "139.68 - 89.72"},
+            {"week": 14, "opponent": "MYBITCHES", "result": "Loss", "score": "70.54 - 102.12"}
+          ]
+        },
+        "MexiCAN Gnomes": {
+          "teamId": 6,
+          "regularSeason": [
+            {"week": 1, "opponent": "Hahahahahahaha's", "result": "Loss", "score": "81.72 - 101.16"},
+            {"week": 2, "opponent": "Mighty Hamsters", "result": "Loss", "score": "98.40 - 121.08"},
+            {"week": 3, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "89.42 - 100.46"},
+            {"week": 4, "opponent": "Little Strong Women", "result": "Win", "score": "126.28 - 86.78"},
+            {"week": 5, "opponent": "Lineman Rule", "result": "Win", "score": "102.64 - 93.78"},
+            {"week": 6, "opponent": "The Majdic", "result": "Win", "score": "118.94 - 102.82"},
+            {"week": 7, "opponent": "The Practice Blows", "result": "Loss", "score": "87.94 - 115.38"},
+            {"week": 8, "opponent": "MYBITCHES", "result": "Loss", "score": "88.92 - 120.34"},
+            {"week": 9, "opponent": "Victorious Secret", "result": "Win", "score": "121.80 - 102.54"},
+            {"week": 10, "opponent": "Fumblerooskis", "result": "Loss", "score": "84.42 - 92.72"},
+            {"week": 11, "opponent": "DocBallerPHDs", "result": "Loss", "score": "69.16 - 112.66"},
+            {"week": 12, "opponent": "Straight Cash Homiez", "result": "Win", "score": "88.06 - 72.28"},
+            {"week": 13, "opponent": "Mighty Hamsters", "result": "Loss", "score": "73.42 - 101.48"},
+            {"week": 14, "opponent": "Hahahahahahaha's", "result": "Win", "score": "100.36 - 88.84"}
+          ]
+        },
+        "Mighty Hamsters": {
+          "teamId": 7,
+          "regularSeason": [
+            {"week": 1, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "84.80 - 99.32"},
+            {"week": 2, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "121.08 - 98.40"},
+            {"week": 3, "opponent": "Hahahahahahaha's", "result": "Win", "score": "114.92 - 91.02"},
+            {"week": 4, "opponent": "Fumblerooskis", "result": "Loss", "score": "91.68 - 131.70"},
+            {"week": 5, "opponent": "DocBallerPHDs", "result": "Loss", "score": "116.04 - 130.18"},
+            {"week": 6, "opponent": "Little Strong Women", "result": "Loss", "score": "70.98 - 111.00"},
+            {"week": 7, "opponent": "Lineman Rule", "result": "Loss", "score": "104.28 - 119.76"},
+            {"week": 8, "opponent": "The Majdic", "result": "Win", "score": "123.20 - 102.76"},
+            {"week": 9, "opponent": "The Practice Blows", "result": "Win", "score": "125.40 - 87.66"},
+            {"week": 10, "opponent": "MYBITCHES", "result": "Win", "score": "97.80 - 92.90"},
+            {"week": 11, "opponent": "Victorious Secret", "result": "Loss", "score": "61.82 - 149.30"},
+            {"week": 12, "opponent": "Hahahahahahaha's", "result": "Win", "score": "107.74 - 95.76"},
+            {"week": 13, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "101.48 - 73.42"},
+            {"week": 14, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "88.54 - 101.94"}
+          ]
+        },
+        "MYBITCHES": {
+          "teamId": 8,
+          "regularSeason": [
+            {"week": 1, "opponent": "Lineman Rule", "result": "Win", "score": "103.02 - 66.62"},
+            {"week": 2, "opponent": "Little Strong Women", "result": "Loss", "score": "99.38 - 130.70"},
+            {"week": 3, "opponent": "Victorious Secret", "result": "Win", "score": "90.90 - 76.62"},
+            {"week": 4, "opponent": "The Majdic", "result": "Loss", "score": "102.02 - 102.12"},
+            {"week": 5, "opponent": "The Practice Blows", "result": "Loss", "score": "83.14 - 97.84"},
+            {"week": 6, "opponent": "Fumblerooskis", "result": "Loss", "score": "79.86 - 126.34"},
+            {"week": 7, "opponent": "DocBallerPHDs", "result": "Loss", "score": "99.10 - 149.62"},
+            {"week": 8, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "120.34 - 88.92"},
+            {"week": 9, "opponent": "Straight Cash Homiez", "result": "Win", "score": "105.40 - 86.80"},
+            {"week": 10, "opponent": "Mighty Hamsters", "result": "Loss", "score": "92.90 - 97.80"},
+            {"week": 11, "opponent": "Hahahahahahaha's", "result": "Loss", "score": "50.34 - 124.68"},
+            {"week": 12, "opponent": "Victorious Secret", "result": "Loss", "score": "106.70 - 117.02"},
+            {"week": 13, "opponent": "The Majdic", "result": "Win", "score": "122.26 - 96.20"},
+            {"week": 14, "opponent": "Lineman Rule", "result": "Win", "score": "102.12 - 70.54"}
+          ]
+        },
+        "Straight Cash Homiez": {
+          "teamId": 9,
+          "regularSeason": [
+            {"week": 1, "opponent": "Mighty Hamsters", "result": "Win", "score": "99.32 - 84.80"},
+            {"week": 2, "opponent": "Hahahahahahaha's", "result": "Win", "score": "110.68 - 84.52"},
+            {"week": 3, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "100.46 - 89.42"},
+            {"week": 4, "opponent": "Lineman Rule", "result": "Loss", "score": "126.20 - 139.54"},
+            {"week": 5, "opponent": "Little Strong Women", "result": "Loss", "score": "97.42 - 97.74"},
+            {"week": 6, "opponent": "The Practice Blows", "result": "Win", "score": "99.78 - 96.64"},
+            {"week": 7, "opponent": "The Majdic", "result": "Loss", "score": "76.04 - 88.24"},
+            {"week": 8, "opponent": "Victorious Secret", "result": "Win", "score": "107.26 - 104.52"},
+            {"week": 9, "opponent": "MYBITCHES", "result": "Loss", "score": "86.80 - 105.40"},
+            {"week": 10, "opponent": "DocBallerPHDs", "result": "Loss", "score": "85.94 - 94.80"},
+            {"week": 11, "opponent": "Fumblerooskis", "result": "Win", "score": "83.54 - 82.90"},
+            {"week": 12, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "72.28 - 88.06"},
+            {"week": 13, "opponent": "Hahahahahahaha's", "result": "Win", "score": "107.18 - 87.94"},
+            {"week": 14, "opponent": "Mighty Hamsters", "result": "Win", "score": "101.94 - 88.54"}
+          ]
+        },
+        "The Majdic": {
+          "teamId": 10,
+          "regularSeason": [
+            {"week": 1, "opponent": "DocBallerPHDs", "result": "Loss", "score": "97.72 - 110.92"},
+            {"week": 2, "opponent": "Fumblerooskis", "result": "Win", "score": "130.60 - 67.14"},
+            {"week": 3, "opponent": "The Practice Blows", "result": "Loss", "score": "94.58 - 115.82"},
+            {"week": 4, "opponent": "MYBITCHES", "result": "Win", "score": "102.12 - 102.02"},
+            {"week": 5, "opponent": "Victorious Secret", "result": "Win", "score": "149.42 - 104.12"},
+            {"week": 6, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "102.82 - 118.94"},
+            {"week": 7, "opponent": "Straight Cash Homiez", "result": "Win", "score": "88.24 - 76.04"},
+            {"week": 8, "opponent": "Mighty Hamsters", "result": "Loss", "score": "102.76 - 123.20"},
+            {"week": 9, "opponent": "Hahahahahahaha's", "result": "Loss", "score": "88.66 - 108.82"},
+            {"week": 10, "opponent": "Little Strong Women", "result": "Loss", "score": "116.20 - 163.04"},
+            {"week": 11, "opponent": "Lineman Rule", "result": "Loss", "score": "95.74 - 128.32"},
+            {"week": 12, "opponent": "The Practice Blows", "result": "Loss", "score": "71.86 - 142.96"},
+            {"week": 13, "opponent": "MYBITCHES", "result": "Loss", "score": "96.20 - 122.26"},
+            {"week": 14, "opponent": "Fumblerooskis", "result": "Loss", "score": "146.50 - 167.98"}
+          ]
+        },
+        "The Practice Blows": {
+          "teamId": 11,
+          "regularSeason": [
+            {"week": 1, "opponent": "Fumblerooskis", "result": "Loss", "score": "77.28 - 113.58"},
+            {"week": 2, "opponent": "DocBallerPHDs", "result": "Win", "score": "138.00 - 103.74"},
+            {"week": 3, "opponent": "The Majdic", "result": "Win", "score": "115.82 - 94.58"},
+            {"week": 4, "opponent": "Victorious Secret", "result": "Win", "score": "101.92 - 74.56"},
+            {"week": 5, "opponent": "MYBITCHES", "result": "Win", "score": "97.84 - 83.14"},
+            {"week": 6, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "96.64 - 99.78"},
+            {"week": 7, "opponent": "MexiCAN Gnomes", "result": "Win", "score": "115.38 - 87.94"},
+            {"week": 8, "opponent": "Hahahahahahaha's", "result": "Loss", "score": "65.58 - 81.42"},
+            {"week": 9, "opponent": "Mighty Hamsters", "result": "Loss", "score": "87.66 - 125.40"},
+            {"week": 10, "opponent": "Lineman Rule", "result": "Win", "score": "114.30 - 72.70"},
+            {"week": 11, "opponent": "Little Strong Women", "result": "Win", "score": "88.64 - 83.82"},
+            {"week": 12, "opponent": "The Majdic", "result": "Win", "score": "142.96 - 71.86"},
+            {"week": 13, "opponent": "DocBallerPHDs", "result": "Win", "score": "116.66 - 100.74"},
+            {"week": 14, "opponent": "Victorious Secret", "result": "Loss", "score": "96.20 - 106.00"}
+          ]
+        },
+        "Victorious Secret": {
+          "teamId": 12,
+          "regularSeason": [
+            {"week": 1, "opponent": "Little Strong Women", "result": "Win", "score": "108.14 - 94.96"},
+            {"week": 2, "opponent": "Lineman Rule", "result": "Win", "score": "71.54 - 64.28"},
+            {"week": 3, "opponent": "MYBITCHES", "result": "Loss", "score": "76.62 - 90.90"},
+            {"week": 4, "opponent": "The Practice Blows", "result": "Loss", "score": "74.56 - 101.92"},
+            {"week": 5, "opponent": "The Majdic", "result": "Loss", "score": "104.12 - 149.42"},
+            {"week": 6, "opponent": "DocBallerPHDs", "result": "Loss", "score": "69.80 - 135.78"},
+            {"week": 7, "opponent": "Fumblerooskis", "result": "Loss", "score": "86.34 - 91.74"},
+            {"week": 8, "opponent": "Straight Cash Homiez", "result": "Loss", "score": "104.52 - 107.26"},
+            {"week": 9, "opponent": "MexiCAN Gnomes", "result": "Loss", "score": "102.54 - 121.80"},
+            {"week": 10, "opponent": "Hahahahahahaha's", "result": "Win", "score": "115.68 - 92.64"},
+            {"week": 11, "opponent": "Mighty Hamsters", "result": "Win", "score": "149.30 - 61.82"},
+            {"week": 12, "opponent": "MYBITCHES", "result": "Win", "score": "117.02 - 106.70"},
+            {"week": 13, "opponent": "Lineman Rule", "result": "Loss", "score": "89.72 - 139.68"},
+            {"week": 14, "opponent": "The Practice Blows", "result": "Win", "score": "106.00 - 96.20"}
+          ]
+        }
+      }
+    }
+  }
+}

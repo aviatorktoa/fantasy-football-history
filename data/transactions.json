@@ -1,0 +1,724 @@
+{
+  "leagueName": "The EZ League",
+  "leagueId": "ezldolphins",
+  "lastUpdated": "2026-02-02",
+  "description": "Waiver wire transactions, FAAB bids, and trades for all 22 seasons (2004-2025). FAAB system was introduced in 2015.",
+  "seasons": {
+    "2025": {
+      "leagueYahooId": "107439",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "nflTeam": "TB",
+          "winningBid": 1,
+          "winner": "Fumblerooskis",
+          "date": "Dec 27, 1:49 am",
+          "otherBids": [{"team": "Little Strong Women", "bid": 0, "reason": "Lower Offer"}]
+        },
+        {
+          "player": "Cowboys",
+          "position": "DEF",
+          "nflTeam": "Dal",
+          "winningBid": 14,
+          "winner": "Fumblerooskis",
+          "date": "Dec 10, 2:57 am",
+          "otherBids": [{"team": "Lineman Rule", "bid": 2, "reason": "Lower Offer"}]
+        },
+        {
+          "player": "Luther Burden III",
+          "position": "WR",
+          "nflTeam": "Chi",
+          "winningBid": 2,
+          "winner": "Lineman Rule",
+          "date": "Dec 10, 2:57 am",
+          "otherBids": [{"team": "Little Strong Women", "bid": 0, "reason": "Lower Offer"}]
+        },
+        {
+          "player": "Rhamondre Stevenson",
+          "position": "RB",
+          "nflTeam": "NE",
+          "winningBid": 2,
+          "winner": "Lineman Rule",
+          "date": "Dec 3, 3:25 am",
+          "otherBids": [{"team": "The Practice Blows", "bid": 0, "reason": "Lower Offer"}]
+        },
+        {
+          "player": "Theo Johnson",
+          "position": "TE",
+          "nflTeam": "NYG",
+          "winningBid": 6,
+          "winner": "Mighty Hamsters",
+          "date": "Dec 3",
+          "otherBids": []
+        },
+        {
+          "player": "Josh Downs",
+          "position": "WR",
+          "nflTeam": "Ind",
+          "winningBid": 3,
+          "winner": "DocBallerPHDs",
+          "date": "Dec 24, 2:46 am",
+          "otherBids": []
+        },
+        {
+          "player": "Mack Hollins",
+          "position": "WR",
+          "nflTeam": "NE",
+          "winningBid": 3,
+          "winner": "Fumblerooskis",
+          "date": "Dec 24",
+          "otherBids": []
+        },
+        {
+          "player": "Colts",
+          "position": "DEF",
+          "nflTeam": "Ind",
+          "winningBid": 2,
+          "winner": "Lineman Rule",
+          "date": "Dec 13, 1:48 am",
+          "otherBids": []
+        }
+      ],
+      "freeAgentPickups": [
+        {"player": "Darnell Mooney", "position": "WR", "nflTeam": "Atl", "acquiredBy": "The Practice Blows", "date": "Dec 28, 11:45 am"},
+        {"player": "Geno Smith", "position": "QB", "nflTeam": "LV", "acquiredBy": "Little Strong Women", "date": "Dec 27, 1:56 pm"},
+        {"player": "Kyle Williams", "position": "WR", "nflTeam": "NE", "acquiredBy": "DocBallerPHDs", "date": "Dec 26, 12:35 pm"},
+        {"player": "Kirk Cousins", "position": "QB", "nflTeam": "Atl", "acquiredBy": "Fumblerooskis", "date": "Dec 25, 4:17 pm"},
+        {"player": "Tyler Shough", "position": "QB", "nflTeam": "NO", "acquiredBy": "Fumblerooskis", "date": "Dec 25, 4:07 pm"},
+        {"player": "Taysom Hill", "position": "TE", "nflTeam": "NO", "acquiredBy": "The Practice Blows", "date": "Dec 25, 1:29 pm"},
+        {"player": "Hunter Henry", "position": "TE", "nflTeam": "NE", "acquiredBy": "The Practice Blows", "date": "Dec 24, 4:32 pm"},
+        {"player": "Vikings", "position": "DEF", "nflTeam": "Min", "acquiredBy": "Lineman Rule", "date": "Dec 14, 5:59 pm"},
+        {"player": "J.J. McCarthy", "position": "QB", "nflTeam": "Min", "acquiredBy": "DocBallerPHDs", "date": "Dec 14, 5:00 pm"},
+        {"player": "Darius Slayton", "position": "WR", "nflTeam": "NYG", "acquiredBy": "Lineman Rule", "date": "Dec 14, 9:58 am"},
+        {"player": "Isaiah Likely", "position": "TE", "nflTeam": "Bal", "acquiredBy": "Straight Cash Homiez", "date": "Dec 13, 11:38 pm"},
+        {"player": "Brian Robinson Jr.", "position": "RB", "nflTeam": "SF", "acquiredBy": "Lineman Rule", "date": "Dec 13, 2:06 pm"},
+        {"player": "Chimere Dike", "position": "WR", "nflTeam": "Ten", "acquiredBy": "Little Strong Women", "date": "Dec 12, 3:05 pm"},
+        {"player": "Jacory Croskey-Merritt", "position": "RB", "nflTeam": "Was", "acquiredBy": "Lineman Rule", "date": "Dec 12, 12:58 pm"},
+        {"player": "Parker Washington", "position": "WR", "nflTeam": "Jax", "acquiredBy": "The Practice Blows", "date": "Dec 10, 7:33 pm"},
+        {"player": "Jerry Jeudy", "position": "WR", "nflTeam": "Cle", "acquiredBy": "Fumblerooskis", "date": "Dec 10"}
+      ],
+      "trades": [
+        {
+          "date": "Nov 23, 12:04 am",
+          "team1": "Victorious Secret",
+          "team1Receives": ["DJ Moore (Chi-WR)", "Xavier Worthy (KC-WR)"],
+          "team2": "Unknown",
+          "team2Receives": []
+        },
+        {
+          "date": "Nov 23, 12:04 am",
+          "team1": "Little Strong Women",
+          "team1Receives": ["Tyrone Tracy Jr. (NYG-RB)", "Ricky Pearsall (SF-WR)"],
+          "team2": "Victorious Secret",
+          "team2Receives": []
+        },
+        {
+          "date": "Nov 22, 7:50 pm",
+          "team1": "MYBITCHES",
+          "team1Receives": ["Travis Etienne Jr. (Jax-RB)"],
+          "team2": "DocBallerPHDs",
+          "team2Receives": ["A.J. Brown (Phi-WR)"]
+        },
+        {
+          "date": "Nov 7, 3:34 pm",
+          "team1": "Fumblerooskis",
+          "team1Receives": ["Tyler Warren (Ind-TE)"],
+          "team2": "Little Strong Women",
+          "team2Receives": ["Zay Flowers (Bal-WR)"]
+        },
+        {
+          "date": "Nov 4, 5:39 pm",
+          "team1": "Straight Cash Homiez",
+          "team1Receives": ["Calvin Ridley (Ten-WR)"],
+          "team2": "Lineman Rule",
+          "team2Receives": ["Darius Slayton (NYG-WR)"]
+        },
+        {
+          "date": "Oct 12, 2:28 pm",
+          "team1": "Straight Cash Homiez",
+          "team1Receives": ["Jameson Williams (Det-WR)"],
+          "team2": "Lineman Rule",
+          "team2Receives": ["D'Andre Swift (Chi-RB)"]
+        },
+        {
+          "date": "Oct 8",
+          "team1": "Fumblerooskis",
+          "team1Receives": ["Justin Fields (NYJ-QB)", "Cam Skattebo (NYG-RB)", "DeVonta Smith (Phi-WR)"],
+          "team2": "Little Strong Women",
+          "team2Receives": []
+        },
+        {
+          "date": "Sep 28",
+          "team1": "DocBallerPHDs",
+          "team1Receives": ["Deebo Samuel (SF-WR)"],
+          "team2": "Mighty Hamsters",
+          "team2Receives": ["Trey McBride (Ari-TE)"]
+        },
+        {
+          "date": "Sep 27",
+          "team1": "Fumblerooskis",
+          "team1Receives": ["Davante Adams (NYJ-WR)"],
+          "team2": "Lineman Rule",
+          "team2Receives": ["Chris Godwin (TB-WR)"]
+        },
+        {
+          "date": "Sep 25",
+          "team1": "Little Strong Women",
+          "team1Receives": ["Christian Watson (GB-WR)"],
+          "team2": "Fumblerooskis",
+          "team2Receives": ["Jaxon Smith-Njigba (Sea-WR)"]
+        },
+        {
+          "date": "Sep 25",
+          "team1": "The Practice Blows",
+          "team1Receives": ["Drake London (Atl-WR)"],
+          "team2": "Straight Cash Homiez",
+          "team2Receives": []
+        }
+      ],
+      "summary": {
+        "totalFaabTransactions": 25,
+        "totalFreeAgentPickups": 40,
+        "totalTrades": 14,
+        "mostActiveFaabTeams": ["Lineman Rule", "Fumblerooskis", "Little Strong Women"],
+        "biggestFaabSpend": {"player": "Cowboys DEF", "amount": 14, "team": "Fumblerooskis"}
+      }
+    },
+    "2024": {
+      "leagueYahooId": "668900",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Dontayvion Wicks", "position": "WR", "nflTeam": "GB", "winningBid": 23, "winner": "Little Strong Women", "date": "Oct 2", "otherBids": [{"team": "Mighty Hamsters", "bid": 9}, {"team": "The Majdic", "bid": 3}]},
+        {"player": "Ricky Pearsall", "position": "WR", "nflTeam": "SF", "winningBid": 17, "winner": "MexiCAN Gnomes", "date": "Nov 13", "otherBids": [{"team": "Lineman Rule", "bid": 6}, {"team": "Fumblerooskis", "bid": 3}]},
+        {"player": "Bo Nix", "position": "QB", "nflTeam": "Den", "winningBid": 16, "winner": "Unknown", "date": "Oct 23", "otherBids": []},
+        {"player": "Tank Bigsby", "position": "RB", "nflTeam": "Phi", "winningBid": 15, "winner": "Little Strong Women", "date": "Oct 2", "otherBids": [{"team": "The Majdic", "bid": 3}]},
+        {"player": "Tucker Kraft", "position": "TE", "nflTeam": "GB", "winningBid": 15, "winner": "Little Strong Women", "date": "Oct 2", "otherBids": [{"team": "The Practice Blows", "bid": 8}]},
+        {"player": "Audric Estime", "position": "RB", "nflTeam": "NO", "winningBid": 13, "winner": "The Majdic", "date": "Nov 13", "otherBids": [{"team": "Fumblerooskis", "bid": 6}]},
+        {"player": "Tre Tucker", "position": "WR", "nflTeam": "LV", "winningBid": 12, "winner": "MexiCAN Gnomes", "date": "Oct 2", "otherBids": [{"team": "Hahahahahahaha's", "bid": 0}]},
+        {"player": "Roschon Johnson", "position": "RB", "nflTeam": "Chi", "winningBid": 7, "winner": "Unknown", "date": "Sep 25", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Dolphins", "position": "DEF", "nflTeam": "Mia", "winningBid": 7, "winner": "DocBallerPHDs", "date": "Sep 25", "otherBids": [{"team": "Mighty Hamsters", "bid": 6}]},
+        {"player": "Justice Hill", "position": "RB", "nflTeam": "Bal", "winningBid": 6, "winner": "Victorious Secret", "date": "Dec 11", "otherBids": [{"team": "Fumblerooskis", "bid": 3}]},
+        {"player": "Nick Chubb", "position": "RB", "nflTeam": "Hou", "winningBid": 6, "winner": "Victorious Secret", "date": "Dec 7", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Mike Gesicki", "position": "TE", "nflTeam": "Cin", "winningBid": 5, "winner": "Hahahahahahaha's", "date": "Nov 6", "otherBids": [{"team": "Little Strong Women", "bid": 3}, {"team": "Mighty Hamsters", "bid": 0}]},
+        {"player": "Sincere McCormick", "position": "RB", "nflTeam": "Ari", "winningBid": 3, "winner": "Fumblerooskis", "date": "Dec 11", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Bengals", "position": "DEF", "nflTeam": "Cin", "winningBid": 3, "winner": "Mighty Hamsters", "date": "Oct 30", "otherBids": [{"team": "Little Strong Women", "bid": 3, "reason": "Lower waiver priority"}]},
+        {"player": "Keon Coleman", "position": "WR", "nflTeam": "Buf", "winningBid": 2, "winner": "Mighty Hamsters", "date": "Oct 30", "otherBids": [{"team": "Fumblerooskis", "bid": 1}, {"team": "Lineman Rule", "bid": 0}]}
+      ],
+      "trades": [
+        {"date": "Nov 16", "description": "T.J. Hockenson + Jauan Jennings to Little Strong Women / Josh Downs + Tucker Kraft to Fumblerooskis"},
+        {"date": "Nov 15", "description": "Malik Nabers to Victorious Secret / Calvin Ridley + Brian Robinson Jr. to Hahahahahahaha's"},
+        {"date": "Nov 14", "description": "Travis Kelce to Lineman Rule / Mark Andrews + Jaxon Smith-Njigba + Rachaad White to MYBITCHES"},
+        {"date": "Nov 14", "description": "Aaron Jones Sr. to The Majdic / Jordan Mason + Ladd McConkey to Fumblerooskis"},
+        {"date": "Nov 10", "description": "Xavier Worthy to Mighty Hamsters / Bengals DEF + Zach Ertz to Little Strong Women"},
+        {"date": "Nov 5", "description": "Jameson Williams to Straight Cash Homiez"},
+        {"date": "Oct 26", "description": "Lamar Jackson to Fumblerooskis / Jalen Hurts + George Pickens to The Practice Blows"},
+        {"date": "Oct 22", "description": "Jaylen Waddle + Najee Harris to Fumblerooskis / Jordan Addison + Austin Ekeler to MexiCAN Gnomes"},
+        {"date": "Oct 8", "description": "De'Von Achane + CeeDee Lamb to MYBITCHES / Bijan Robinson + Ja'Marr Chase to Lineman Rule"},
+        {"date": "Sep 27", "description": "Alvin Kamara to MexiCAN Gnomes / Kyren Williams to Fumblerooskis"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 68,
+        "totalTrades": 22,
+        "mostActiveFaabTeams": ["Little Strong Women", "MexiCAN Gnomes", "Victorious Secret"],
+        "biggestFaabSpend": {"player": "Dontayvion Wicks", "amount": 23, "team": "Little Strong Women"},
+        "notableTrades": ["Travis Kelce trade", "De'Von Achane + CeeDee Lamb blockbuster", "Lamar Jackson trade"]
+      }
+    },
+    "2023": {
+      "leagueYahooId": "195452",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Jerome Ford", "position": "RB", "nflTeam": "Cle", "winningBid": 82, "winner": "MYBITCHES", "date": "Sep 20", "otherBids": [{"team": "Lineman Rule", "bid": 53}, {"team": "Mighty Hamsters", "bid": 50}, {"team": "MexiCAN Gnomes", "bid": 35}, {"team": "The Majdic", "bid": 22}, {"team": "Victorious Secret", "bid": 14}]},
+        {"player": "Ty Chandler", "position": "RB", "nflTeam": "Min", "winningBid": 50, "winner": "MexiCAN Gnomes", "date": "Nov 15", "otherBids": [{"team": "Mighty Hamsters", "bid": 28}, {"team": "Lineman Rule", "bid": 4}]},
+        {"player": "Kyler Murray", "position": "QB", "nflTeam": "Ari", "winningBid": 37, "winner": "DocBallerPHDs", "date": "Oct 21", "otherBids": [{"team": "Lineman Rule", "bid": 2}, {"team": "Mighty Hamsters", "bid": 0}]},
+        {"player": "Jake Browning", "position": "QB", "nflTeam": "Cin", "winningBid": 27, "winner": "Fumblerooskis", "date": "Dec 13", "otherBids": [{"team": "Lineman Rule", "bid": 0}, {"team": "Little Strong Women", "bid": 0}]},
+        {"player": "Emari Demercado", "position": "RB", "nflTeam": "Ari", "winningBid": 25, "winner": "The Practice Blows", "date": "Oct 11", "otherBids": [{"team": "Straight Cash Homiez", "bid": 7}, {"team": "DocBallerPHDs", "bid": 7}, {"team": "Lineman Rule", "bid": 4}]},
+        {"player": "David Njoku", "position": "TE", "nflTeam": "Cle", "winningBid": 22, "winner": "Mighty Hamsters", "date": "Nov 22", "otherBids": [{"team": "Lineman Rule", "bid": 7}, {"team": "DocBallerPHDs", "bid": 4}, {"team": "The Practice Blows", "bid": 1}]},
+        {"player": "Joshua Palmer", "position": "WR", "nflTeam": "Buf", "winningBid": 19, "winner": "Hahahahahahaha's", "date": "Sep 27", "otherBids": [{"team": "MYBITCHES", "bid": 18}, {"team": "Victorious Secret", "bid": 12}, {"team": "The Majdic", "bid": 10}]},
+        {"player": "Zach Evans", "position": "RB", "nflTeam": "NYJ", "winningBid": 17, "winner": "The Practice Blows", "date": "Oct 21", "otherBids": [{"team": "Lineman Rule", "bid": 11}, {"team": "Straight Cash Homiez", "bid": 3}, {"team": "The Majdic", "bid": 3}]},
+        {"player": "Ezekiel Elliott", "position": "RB", "nflTeam": "Dal", "winningBid": 16, "winner": "The Majdic", "date": "Sep 27", "otherBids": [{"team": "Lineman Rule", "bid": 1}]},
+        {"player": "Jets", "position": "DEF", "nflTeam": "NYJ", "winningBid": 15, "winner": "Fumblerooskis", "date": "Nov 29", "otherBids": [{"team": "Lineman Rule", "bid": 2}, {"team": "DocBallerPHDs", "bid": 1}]},
+        {"player": "Trey McBride", "position": "TE", "nflTeam": "Ari", "winningBid": 15, "winner": "Mighty Hamsters", "date": "Nov 1", "otherBids": [{"team": "Lineman Rule", "bid": 12}, {"team": "DocBallerPHDs", "bid": 4}]},
+        {"player": "Jordan Love", "position": "QB", "nflTeam": "GB", "winningBid": 13, "winner": "Lineman Rule", "date": "Oct 18", "otherBids": [{"team": "Victorious Secret", "bid": 5}, {"team": "The Majdic", "bid": 3}]},
+        {"player": "Jaleel McLaughlin", "position": "RB", "nflTeam": "Den", "winningBid": 13, "winner": "Lineman Rule", "date": "Oct 4", "otherBids": [{"team": "Mighty Hamsters", "bid": 6}, {"team": "The Majdic", "bid": 4}]},
+        {"player": "Rams", "position": "DEF", "nflTeam": "LAR", "winningBid": 11, "winner": "Hahahahahahaha's", "date": "Nov 29", "otherBids": [{"team": "DocBallerPHDs", "bid": 3}, {"team": "The Practice Blows", "bid": 0}]},
+        {"player": "Quentin Johnston", "position": "WR", "nflTeam": "LAC", "winningBid": 11, "winner": "Little Strong Women", "date": "Sep 27", "otherBids": [{"team": "Hahahahahahaha's", "bid": 9}, {"team": "Victorious Secret", "bid": 4}]},
+        {"player": "Browns", "position": "DEF", "nflTeam": "Cle", "winningBid": 11, "winner": "DocBallerPHDs", "date": "Sep 13", "otherBids": [{"team": "Little Strong Women", "bid": 2}, {"team": "Hahahahahahaha's", "bid": 0}]},
+        {"player": "K.J. Osborn", "position": "WR", "nflTeam": "Atl", "winningBid": 11, "winner": "Little Strong Women", "date": "Oct 11", "otherBids": [{"team": "Victorious Secret", "bid": 6}, {"team": "Lineman Rule", "bid": 2}]},
+        {"player": "DJ Chark", "position": "WR", "nflTeam": "Atl", "winningBid": 10, "winner": "The Majdic", "date": "Sep 27", "otherBids": []},
+        {"player": "Kendrick Bourne", "position": "WR", "nflTeam": "SF", "winningBid": 9, "winner": "Hahahahahahaha's", "date": "Oct 25", "otherBids": [{"team": "The Majdic", "bid": 4}, {"team": "Little Strong Women", "bid": 3}]},
+        {"player": "Keaton Mitchell", "position": "RB", "nflTeam": "Bal", "winningBid": 9, "winner": "The Practice Blows", "date": "Nov 8", "otherBids": [{"team": "Lineman Rule", "bid": 4}, {"team": "The Majdic", "bid": 3}]},
+        {"player": "Matthew Stafford", "position": "QB", "nflTeam": "LAR", "winningBid": 8, "winner": "The Practice Blows", "date": "Oct 11", "otherBids": [{"team": "Fumblerooskis", "bid": 1}]},
+        {"player": "Seahawks", "position": "DEF", "nflTeam": "Sea", "winningBid": 7, "winner": "DocBallerPHDs", "date": "Dec 20", "otherBids": [{"team": "Mighty Hamsters", "bid": 3}]},
+        {"player": "C.J. Stroud", "position": "QB", "nflTeam": "Hou", "winningBid": 7, "winner": "The Majdic", "date": "Sep 27", "otherBids": [{"team": "Lineman Rule", "bid": 3}, {"team": "The Practice Blows", "bid": 2}]},
+        {"player": "Tutu Atwell", "position": "WR", "nflTeam": "LAR", "winningBid": 7, "winner": "Mighty Hamsters", "date": "Sep 20", "otherBids": [{"team": "DocBallerPHDs", "bid": 3}]},
+        {"player": "Matt Breida", "position": "RB", "nflTeam": "SF", "winningBid": 7, "winner": "Straight Cash Homiez", "date": "Sep 20", "otherBids": [{"team": "The Majdic", "bid": 4}]}
+      ],
+      "trades": [
+        {"date": "Nov 15", "description": "Hollywood Brown + Dallas Goedert + Rachaad White + Pat Freiermuth to Lineman Rule / Russell Wilson + Michael Thomas + Antonio Gibson + Sam LaPorta to Victorious Secret"},
+        {"date": "Oct 23", "description": "Evan Engram + Darrell Henderson Jr. to The Practice Blows / Keaontay Ingram + Sam LaPorta to Lineman Rule"},
+        {"date": "Oct 19", "description": "Roschon Johnson to DocBallerPHDs / Zach Charbonnet to Little Strong Women"},
+        {"date": "Oct 17", "description": "Chiefs DEF to The Practice Blows / De'Von Achane to Little Strong Women"},
+        {"date": "Oct 14", "description": "Puka Nacua + Kyren Williams to The Practice Blows / Chris Olave + Tony Pollard to Little Strong Women"},
+        {"date": "Oct 10", "description": "Joe Burrow to The Practice Blows / Calvin Ridley to MYBITCHES"},
+        {"date": "Oct 5", "description": "DJ Moore to Victorious Secret / Alvin Kamara to Mighty Hamsters"},
+        {"date": "Sep 23", "description": "Chiefs DEF + Elijah Moore + Travis Kelce to Little Strong Women / Nico Collins + Calvin Ridley + Cam Akers to The Practice Blows"},
+        {"date": "Sep 11", "description": "Tyler Allgeier + Rashid Shaheed to Straight Cash Homiez / Kadarius Toney + Jordan Love to The Practice Blows"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 66,
+        "totalTrades": 9,
+        "mostActiveFaabTeams": ["Lineman Rule", "The Practice Blows", "Mighty Hamsters"],
+        "biggestFaabSpend": {"player": "Jerome Ford", "amount": 82, "team": "MYBITCHES"},
+        "notableTrades": ["Travis Kelce trade", "Joe Burrow trade", "4-for-4 blockbuster (Lineman Rule/Victorious Secret)"]
+      }
+    },
+    "2022": {
+      "leagueYahooId": "552010",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "D'Onta Foreman", "position": "RB", "nflTeam": "Cle", "winningBid": 56, "winner": "Fumblerooskis", "date": "Oct 26", "otherBids": [{"team": "The Majdic", "bid": 23}, {"team": "Straight Cash Homiez", "bid": 17}, {"team": "Victorious Secret", "bid": 17}, {"team": "Mighty Hamsters", "bid": 11}]},
+        {"player": "Taysom Hill", "position": "QB/TE", "nflTeam": "NO", "winningBid": 52, "winner": "MexiCAN Gnomes", "date": "Oct 12", "otherBids": [{"team": "MYBITCHES", "bid": 51}, {"team": "DocBallerPHDs", "bid": 7}, {"team": "Mighty Hamsters", "bid": 1}]},
+        {"player": "Elijah Mitchell", "position": "RB", "nflTeam": "KC", "winningBid": 41, "winner": "Lineman Rule", "date": "Nov 16", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 14}, {"team": "Victorious Secret", "bid": 7}]},
+        {"player": "Gus Edwards", "position": "RB", "nflTeam": "Bal", "winningBid": 39, "winner": "Straight Cash Homiez", "date": "Nov 16", "otherBids": [{"team": "MYBITCHES", "bid": 14}, {"team": "Victorious Secret", "bid": 7}]},
+        {"player": "Saints", "position": "DEF", "nflTeam": "NO", "winningBid": 33, "winner": "Victorious Secret", "date": "Dec 14", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Mike Boone", "position": "RB", "nflTeam": "Mia", "winningBid": 21, "winner": "Fumblerooskis", "date": "Oct 5", "otherBids": [{"team": "Straight Cash Homiez", "bid": 9}, {"team": "DocBallerPHDs", "bid": 4}, {"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Cam Akers", "position": "RB", "nflTeam": "Sea", "winningBid": 18, "winner": "The Practice Blows", "date": "Nov 23", "otherBids": [{"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Hayden Hurst", "position": "TE", "nflTeam": "LAC", "winningBid": 16, "winner": "Hahahahahahaha's", "date": "Oct 12", "otherBids": [{"team": "The Practice Blows", "bid": 2}, {"team": "Fumblerooskis", "bid": 1}]},
+        {"player": "Eno Benjamin", "position": "RB", "nflTeam": "NO", "winningBid": 16, "winner": "Hahahahahahaha's", "date": "Oct 12", "otherBids": [{"team": "Straight Cash Homiez", "bid": 7}]},
+        {"player": "Packers", "position": "DEF", "nflTeam": "GB", "winningBid": 16, "winner": "Mighty Hamsters", "date": "Sep 28", "otherBids": [{"team": "DocBallerPHDs", "bid": 3}, {"team": "Victorious Secret", "bid": 2}, {"team": "Lineman Rule", "bid": 1}]},
+        {"player": "Samaje Perine", "position": "RB", "nflTeam": "Cin", "winningBid": 15, "winner": "The Majdic", "date": "Nov 23", "otherBids": [{"team": "Lineman Rule", "bid": 11}, {"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Latavius Murray", "position": "RB", "nflTeam": "Buf", "winningBid": 13, "winner": "Victorious Secret", "date": "Oct 26", "otherBids": [{"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Tyler Boyd", "position": "WR", "nflTeam": "Ten", "winningBid": 13, "winner": "DocBallerPHDs", "date": "Oct 19", "otherBids": [{"team": "Lineman Rule", "bid": 3}]},
+        {"player": "Geno Smith", "position": "QB", "nflTeam": "LV", "winningBid": 13, "winner": "Victorious Secret", "date": "Oct 12", "otherBids": [{"team": "Mighty Hamsters", "bid": 8}, {"team": "Hahahahahahaha's", "bid": 7}, {"team": "DocBallerPHDs", "bid": 7}]},
+        {"player": "Gerald Everett", "position": "TE", "nflTeam": "Chi", "winningBid": 12, "winner": "Mighty Hamsters", "date": "Sep 14", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 5}]},
+        {"player": "Benny Snell Jr.", "position": "RB", "nflTeam": "Pit", "winningBid": 12, "winner": "Lineman Rule", "date": "Nov 30", "otherBids": [{"team": "Lineman Rule", "bid": 0}]},
+        {"player": "49ers", "position": "DEF", "nflTeam": "SF", "winningBid": 12, "winner": "Mighty Hamsters", "date": "Nov 9", "otherBids": [{"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Bam Knight", "position": "RB", "nflTeam": "Ari", "winningBid": 11, "winner": "Lineman Rule", "date": "Nov 30", "otherBids": [{"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Will Dissly", "position": "TE", "nflTeam": "LAC", "winningBid": 11, "winner": "DocBallerPHDs", "date": "Oct 5", "otherBids": [{"team": "The Practice Blows", "bid": 0}]},
+        {"player": "Zach Ertz", "position": "TE", "nflTeam": "Was", "winningBid": 10, "winner": "The Majdic", "date": "Sep 17", "otherBids": [{"team": "Victorious Secret", "bid": 8}, {"team": "Mighty Hamsters", "bid": 5}]}
+      ],
+      "trades": [
+        {"date": "Nov 19", "description": "Kareem Hunt + Wan'Dale Robinson to Straight Cash Homiez / Jerick McKinnon + Curtis Samuel to Lineman Rule"},
+        {"date": "Nov 19", "description": "Treylon Burks + Isiah Pacheco + Dalton Schultz + DJ Moore to Mighty Hamsters / Foster Moreau + Michael Carter + James Robinson + Wan'Dale Robinson to Lineman Rule"},
+        {"date": "Nov 6", "description": "Greg Dulcich to DocBallerPHDs / Devin Singletary to Little Strong Women"},
+        {"date": "Oct 11", "description": "Cam Akers + Darrell Henderson Jr. + Tom Brady + Tee Higgins to Lineman Rule / Brandin Cooks + Kenneth Walker III + Russell Wilson + Garrett Wilson to The Practice Blows"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 61,
+        "totalTrades": 7,
+        "mostActiveFaabTeams": ["Lineman Rule", "Victorious Secret", "Fumblerooskis"],
+        "biggestFaabSpend": {"player": "D'Onta Foreman", "amount": 56, "team": "Fumblerooskis"},
+        "notableTrades": ["4-for-4 blockbuster (Mighty Hamsters/Lineman Rule)", "Kenneth Walker III trade"]
+      }
+    },
+    "2004": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "First season of The EZ League - detailed transaction data not available",
+        "champion": "Quint Connection"
+      }
+    },
+    "2005": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Linemen Rule (Daniel F)"
+      }
+    },
+    "2006": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Lineman Rule (Daniel F)"
+      }
+    },
+    "2007": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Mighty Hamsters (T)"
+      }
+    },
+    "2008": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Team Majdic (Nima)"
+      }
+    },
+    "2009": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Lineman Rule (Daniel F)"
+      }
+    },
+    "2010": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "MYBITCHES (AustinB)"
+      }
+    },
+    "2011": {
+      "leagueYahooId": "unknown",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Hahahahahahaha's (job)"
+      }
+    },
+    "2012": {
+      "leagueYahooId": "315141",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "note": "Detailed transaction data not available",
+        "champion": "Mighty Hamsters (John)"
+      }
+    },
+    "2013": {
+      "leagueYahooId": "178041",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [
+        {"date": "Nov 12", "description": "Harry Douglas + Mike Wallace + Jordan Reed to Toothpick's Angels / Wes Welker to Lineman Rule"},
+        {"date": "Oct 4", "description": "Reggie Wayne + Ray Rice + Matt Schaub to Hahahahahahaha's / Wes Welker + Chris Johnson + Packers DEF to Toothpick's Angels"},
+        {"date": "Sep 16", "description": "Julius Thomas to The Practice Blows / Michael Floyd to Toothpick's Angels"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "totalTrades": 6,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "notableTrades": ["Ray Rice + Reggie Wayne blockbuster", "Wes Welker trade"],
+        "champion": "Mighty Hamsters (John)"
+      }
+    },
+    "2014": {
+      "leagueYahooId": "497690",
+      "faabBudget": null,
+      "waiverType": "Standard Waiver Priority (Not FAAB)",
+      "fabOffers": [],
+      "trades": [
+        {"date": "Nov 16", "description": "Antonio Brown + Darren Sproles + Ryan Tannehill to Hahahahahahaha's / Mark Sanchez + Torrey Smith + Justin Forsett to MexiCAN gnomes"},
+        {"date": "Oct 30", "description": "Steve Smith + Heath Miller to The Practice Blows / Jordan Reed + Percy Harvin to Straight Cash Homiez"},
+        {"date": "Sep 27", "description": "Donald Brown + Ryan Tannehill + Darren Sproles to MexiCAN gnomes / Bobby Rainey + Andy Dalton to Mighty Hamsters"},
+        {"date": "Sep 25", "description": "Jamaal Charles + Josh Gordon to Little Strong Women / Marques Colston + Joique Bell + Russell Wilson to Straight Cash Homiez"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 0,
+        "totalTrades": 10,
+        "waiverSystem": "Standard waiver priority - FAAB not used this season",
+        "notableTrades": ["Jamaal Charles + Josh Gordon blockbuster", "Antonio Brown trade"],
+        "champion": "Mighty Hamsters (John)"
+      }
+    },
+    "2015": {
+      "leagueYahooId": "453088",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Darren McFadden", "position": "RB", "nflTeam": "Dal", "winningBid": 65, "winner": "fumblerooskis", "date": "Oct 28", "otherBids": [{"team": "The Practice Blows", "bid": 28}, {"team": "The Majdic", "bid": 26}, {"team": "Little Strong Women", "bid": 17}, {"team": "MexiCAN gnomes", "bid": 8}, {"team": "Straight Cash Homiez", "bid": 6}]},
+        {"player": "Kendall Wright", "position": "WR", "nflTeam": "Ari", "winningBid": 22, "winner": "The Majdic", "date": "Oct 21", "otherBids": [{"team": "Straight Cash Homiez", "bid": 6}, {"team": "Lineman Rule", "bid": 1}]},
+        {"player": "Alfred Blue", "position": "RB", "nflTeam": "Hou", "winningBid": 19, "winner": "fumblerooskis", "date": "Oct 28", "otherBids": [{"team": "Little Strong Women", "bid": 11}, {"team": "The Majdic", "bid": 9}, {"team": "MexiCAN gnomes", "bid": 6}, {"team": "Mighty Hamsters", "bid": 5}]},
+        {"player": "Richard Rodgers", "position": "TE", "nflTeam": "LAC", "winningBid": 15, "winner": "The Practice Blows", "date": "Dec 9", "otherBids": [{"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Commanders", "position": "DEF", "nflTeam": "Was", "winningBid": 15, "winner": "Hahahahahahaha's", "date": "Dec 2", "otherBids": [{"team": "The Majdic", "bid": 1}]},
+        {"player": "Denard Robinson", "position": "RB", "nflTeam": "Jax", "winningBid": 11, "winner": "The Majdic", "date": "Dec 16", "otherBids": [{"team": "fumblerooskis", "bid": 4}, {"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Tim Hightower", "position": "RB", "nflTeam": "NO", "winningBid": 11, "winner": "The Majdic", "date": "Dec 16", "otherBids": [{"team": "MexiCAN gnomes", "bid": 0}]},
+        {"player": "Blake Bortles", "position": "QB", "nflTeam": "GB", "winningBid": 10, "winner": "Hahahahahahaha's", "date": "Oct 21", "otherBids": [{"team": "fumblerooskis", "bid": 8}]},
+        {"player": "Stefon Diggs", "position": "WR", "nflTeam": "NE", "winningBid": 7, "winner": "MexiCAN gnomes", "date": "Oct 21", "otherBids": [{"team": "Mighty Hamsters", "bid": 5}, {"team": "MYBITCHES", "bid": 3}]}
+      ],
+      "trades": [
+        {"date": "Nov 17", "description": "Chris Ivory to Little Strong Women / Patriots DEF to Mighty Hamsters"},
+        {"date": "Nov 15", "description": "Brandin Cooks to fumblerooskis / Marshawn Lynch to MexiCAN gnomes"},
+        {"date": "Oct 31", "description": "T.J. Yeldon to Mighty Hamsters / Jarvis Landry to Straight Cash Homiez"},
+        {"date": "Sep 1", "description": "Tom Brady to Lineman Rule / Vance McDonald to LOLOLOLOLOLs"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 46,
+        "totalTrades": 8,
+        "mostActiveFaabTeams": ["fumblerooskis", "The Majdic", "Hahahahahahaha's"],
+        "biggestFaabSpend": {"player": "Darren McFadden", "amount": 65, "team": "fumblerooskis"},
+        "notableTrades": ["Tom Brady trade", "Marshawn Lynch trade", "Brandin Cooks trade"],
+        "champion": "The Majdic (Nima)"
+      }
+    },
+    "2016": {
+      "leagueYahooId": "514506",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Falcons", "position": "DEF", "nflTeam": "Atl", "winningBid": 45, "winner": "Hahahahahahaha's", "date": "Dec 7", "otherBids": [{"team": "MexiCAN gnomes", "bid": 31}, {"team": "The Majdic", "bid": 6}]},
+        {"player": "Kenneth Farrow", "position": "RB", "nflTeam": "NE", "winningBid": 35, "winner": "Fumblerooskis", "date": "Dec 14", "otherBids": [{"team": "Mighty Hamsters", "bid": 5}, {"team": "The Majdic", "bid": 4}]},
+        {"player": "Titans", "position": "DEF", "nflTeam": "Ten", "winningBid": 24, "winner": "Hahahahahahaha's", "date": "Dec 21", "otherBids": [{"team": "Mighty Hamsters", "bid": 6}]},
+        {"player": "Texans", "position": "DEF", "nflTeam": "Hou", "winningBid": 14, "winner": "The Majdic", "date": "Dec 14", "otherBids": [{"team": "Mighty Hamsters", "bid": 1}]},
+        {"player": "Jacquizz Rodgers", "position": "RB", "nflTeam": "TB", "winningBid": 13, "winner": "MYBITCHES", "date": "Oct 12", "otherBids": [{"team": "MYBITCHES", "bid": 0}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Ryan Tannehill", "position": "QB", "nflTeam": "Ten", "winningBid": 12, "winner": "Hahahahahahaha's", "date": "Oct 5", "otherBids": [{"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Kenneth Dixon", "position": "RB", "nflTeam": "NYJ", "winningBid": 11, "winner": "The Majdic", "date": "Sep 28", "otherBids": [{"team": "MexiCAN gnomes", "bid": 0}]},
+        {"player": "Tyreek Hill", "position": "WR", "nflTeam": "Mia", "winningBid": 10, "winner": "MexiCAN gnomes", "date": "Nov 30", "otherBids": [{"team": "Straight Cash Homiez", "bid": 10, "reason": "Lower waiver priority"}, {"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Eagles", "position": "DEF", "nflTeam": "Phi", "winningBid": 7, "winner": "Little Strong Women", "date": "Oct 1", "otherBids": [{"team": "The Practice Blows", "bid": 5}]},
+        {"player": "Zach Ertz", "position": "TE", "nflTeam": "Was", "winningBid": 6, "winner": "Straight Cash Homiez", "date": "Oct 5", "otherBids": [{"team": "MexiCAN gnomes", "bid": 4}]},
+        {"player": "Kyle Rudolph", "position": "TE", "nflTeam": "TB", "winningBid": 5, "winner": "MYBITCHES", "date": "Sep 28", "otherBids": [{"team": "The Majdic", "bid": 5, "reason": "Invalid claim"}]}
+      ],
+      "trades": [
+        {"date": "Oct 13", "description": "Rob Gronkowski + Kenny Britt + Dak Prescott to Little Strong Women / Gary Barnidge + Travis Benjamin + Latavius Murray to DocBallerPHDs"},
+        {"date": "Oct 5", "description": "Blake Bortles to Mighty Hamsters / Giovani Bernard + Robert Woods to Straight Cash Homiez"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 44,
+        "totalTrades": 4,
+        "mostActiveFaabTeams": ["Hahahahahahaha's", "The Majdic", "MexiCAN gnomes"],
+        "biggestFaabSpend": {"player": "Falcons DEF", "amount": 45, "team": "Hahahahahahaha's"},
+        "notableTrades": ["Rob Gronkowski + Dak Prescott blockbuster"],
+        "champion": "Mighty Hamsters (John)"
+      }
+    },
+    "2017": {
+      "leagueYahooId": "208478",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Kerwynn Williams", "position": "RB", "nflTeam": "Ari", "winningBid": 35, "winner": "Fumblerooskis", "date": "Dec 20", "otherBids": [{"team": "Amish Rake Fight", "bid": 15}]},
+        {"player": "Tyrell Williams", "position": "WR", "nflTeam": "Det", "winningBid": 33, "winner": "Fumblerooskis", "date": "Dec 23", "otherBids": [{"team": "Amish Rake Fight", "bid": 20}]},
+        {"player": "Sterling Shepard", "position": "WR", "nflTeam": "TB", "winningBid": 26, "winner": "Straight Cash Homiez", "date": "Sep 27", "otherBids": [{"team": "Lineman Rule", "bid": 3}]},
+        {"player": "Aaron Jones Sr.", "position": "RB", "nflTeam": "Min", "winningBid": 17, "winner": "MexiCAN Gnomes", "date": "Oct 4", "otherBids": [{"team": "Straight Cash Homiez", "bid": 15}, {"team": "Lineman Rule", "bid": 8}]},
+        {"player": "LeGarrette Blount", "position": "RB", "nflTeam": "Det", "winningBid": 16, "winner": "Mighty Hamsters", "date": "Sep 27", "otherBids": [{"team": "Straight Cash Homiez", "bid": 12}, {"team": "MexiCAN Gnomes", "bid": 5}, {"team": "Lineman Rule", "bid": 3}]},
+        {"player": "Devin Funchess", "position": "WR", "nflTeam": "Det", "winningBid": 15, "winner": "Straight Cash Homiez", "date": "Oct 4", "otherBids": [{"team": "MYBITCHES", "bid": 13}, {"team": "Fumblerooskis", "bid": 2}]},
+        {"player": "Bilal Powell", "position": "RB", "nflTeam": "NYJ", "winningBid": 14, "winner": "Amish Rake Fight", "date": "Dec 20", "otherBids": [{"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Austin Seferian-Jenkins", "position": "TE", "nflTeam": "Jax", "winningBid": 12, "winner": "Mighty Hamsters", "date": "Oct 25", "otherBids": [{"team": "MYBITCHES", "bid": 3}]},
+        {"player": "Eddie Lacy", "position": "RB", "nflTeam": "Sea", "winningBid": 11, "winner": "MexiCAN Gnomes", "date": "Oct 4", "otherBids": [{"team": "Lineman Rule", "bid": 3}]},
+        {"player": "Andy Dalton", "position": "QB", "nflTeam": "Car", "winningBid": 8, "winner": "Mighty Hamsters", "date": "Oct 4", "otherBids": [{"team": "Lineman Rule", "bid": 4}, {"team": "Hahahahahahaha's", "bid": 2}, {"team": "MYBITCHES", "bid": 0}]},
+        {"player": "Jonathan Stewart", "position": "RB", "nflTeam": "NYG", "winningBid": 5, "winner": "Straight Cash Homiez", "date": "Oct 25", "otherBids": [{"team": "Hahahahahahaha's", "bid": 2}]},
+        {"player": "Ryan Succop", "position": "K", "nflTeam": "TB", "winningBid": 5, "winner": "Amish Rake Fight", "date": "Nov 1", "otherBids": [{"team": "The Majdic", "bid": 0}]}
+      ],
+      "trades": [
+        {"date": "Nov 8", "description": "Derrick Henry to Amish Rake Fight / Tyrod Taylor to Mighty Hamsters"},
+        {"date": "Nov 7", "description": "Orleans Darkwa to DocBallerPHDs / Marcus Mariota to The Majdic"},
+        {"date": "Oct 11", "description": "Philip Rivers to MYBITCHES / Carson Palmer to Amish Rake Fight"},
+        {"date": "Oct 10", "description": "Devin Funchess + Jared Goff to The Practice Blows / Alshon Jeffery + Bilal Powell to Lineman Rule"},
+        {"date": "Oct 4", "description": "Ben Roethlisberger to Straight Cash Homiez / Devin Funchess to Lineman Rule"},
+        {"date": "Sep 13", "description": "Danny Amendola to Straight Cash Homiez"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 74,
+        "totalTrades": 12,
+        "mostActiveFaabTeams": ["Fumblerooskis", "Straight Cash Homiez", "MexiCAN Gnomes"],
+        "biggestFaabSpend": {"player": "Kerwynn Williams", "amount": 35, "team": "Fumblerooskis"},
+        "notableTrades": ["Derrick Henry trade", "Alshon Jeffery + Bilal Powell trade"],
+        "champion": "Amish Rake Fight (Yoseph)"
+      }
+    },
+    "2018": {
+      "leagueYahooId": "1009856",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Theo Riddick", "position": "RB", "nflTeam": "LV", "winningBid": 40, "winner": "Victorious Secret", "date": "Nov 21", "otherBids": [{"team": "The Practice Blows", "bid": 2}]},
+        {"player": "Tre'Quan Smith", "position": "WR", "nflTeam": "Det", "winningBid": 32, "winner": "MYBITCHES", "date": "Nov 21", "otherBids": []},
+        {"player": "Justin Jackson", "position": "RB", "nflTeam": "Det", "winningBid": 26, "winner": "Hahahahahahaha's", "date": "Nov 28", "otherBids": [{"team": "Mighty Hamsters", "bid": 16}, {"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Saints", "position": "DEF", "nflTeam": "NO", "winningBid": 18, "winner": "The Practice Blows", "date": "Dec 5", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Wendell Smallwood", "position": "RB", "nflTeam": "Jax", "winningBid": 17, "winner": "Lineman Rule", "date": "Oct 10", "otherBids": [{"team": "Mighty Hamsters", "bid": 17, "reason": "Lower waiver priority"}, {"team": "MYBITCHES", "bid": 16}, {"team": "The Majdic", "bid": 9}, {"team": "Fumblerooskis", "bid": 2}]},
+        {"player": "David Moore", "position": "WR", "nflTeam": "Car", "winningBid": 15, "winner": "Hahahahahahaha's", "date": "Nov 28", "otherBids": [{"team": "The Practice Blows", "bid": 10}, {"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Tyler Boyd", "position": "WR", "nflTeam": "Ten", "winningBid": 15, "winner": "The Majdic", "date": "Sep 26", "otherBids": [{"team": "Mighty Hamsters", "bid": 13}, {"team": "MexiCAN Gnomes", "bid": 9}, {"team": "MYBITCHES", "bid": 6}, {"team": "Straight Cash HoFers", "bid": 5}]},
+        {"player": "Ronald Jones", "position": "RB", "nflTeam": "Dal", "winningBid": 8, "winner": "The Majdic", "date": "Oct 10", "otherBids": [{"team": "Little Strong Women", "bid": 6}]},
+        {"player": "Ryan Tannehill", "position": "QB", "nflTeam": "Ten", "winningBid": 7, "winner": "The Majdic", "date": "Sep 26", "otherBids": [{"team": "The Practice Blows", "bid": 0}]},
+        {"player": "Panthers", "position": "DEF", "nflTeam": "Car", "winningBid": 4, "winner": "Lineman Rule", "date": "Nov 28", "otherBids": [{"team": "Straight Cash HoFers", "bid": 0}]},
+        {"player": "Vance McDonald", "position": "TE", "nflTeam": "Pit", "winningBid": 3, "winner": "MexiCAN Gnomes", "date": "Sep 26", "otherBids": []},
+        {"player": "Courtland Sutton", "position": "WR", "nflTeam": "Den", "winningBid": 2, "winner": "Mighty Hamsters", "date": "Dec 5", "otherBids": [{"team": "The Practice Blows", "bid": 1}]}
+      ],
+      "trades": [
+        {"date": "Nov 6", "description": "Demaryius Thomas + Jack Doyle to MYBITCHES / Tevin Coleman to Lineman Rule"},
+        {"date": "Oct 25", "description": "Amari Cooper + Latavius Murray + Dalvin Cook to Straight Cash HoFers / Julio Jones + Chris Thompson to Lineman Rule"},
+        {"date": "Oct 24", "description": "Antonio Brown + Chester Rogers + Carlos Hyde to Straight Cash HoFers / Alvin Kamara + Keenan Allen to The Practice Blows"},
+        {"date": "Sep 20", "description": "Quincy Enunwa to Fumblerooskis / Carlos Hyde to The Practice Blows"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 41,
+        "totalTrades": 8,
+        "mostActiveFaabTeams": ["The Majdic", "Lineman Rule", "Hahahahahahaha's"],
+        "biggestFaabSpend": {"player": "Theo Riddick", "amount": 40, "team": "Victorious Secret"},
+        "notableTrades": ["Alvin Kamara + Keenan Allen blockbuster", "Julio Jones + Dalvin Cook mega-trade", "Antonio Brown trade"],
+        "champion": "Mighty Hamsters (John)"
+      }
+    },
+    "2019": {
+      "leagueYahooId": "563870",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Brian Hill", "position": "RB", "nflTeam": "Cle", "winningBid": 83, "winner": "Little Strong Women", "date": "Nov 13", "otherBids": [{"team": "Mighty Hamsters", "bid": 39}, {"team": "Lineman Rule", "bid": 11}, {"team": "The Majdic", "bid": 8}, {"team": "Straight Cash Homiez", "bid": 5}]},
+        {"player": "Jonathan Williams", "position": "RB", "nflTeam": "Was", "winningBid": 41, "winner": "Victorious Secret", "date": "Nov 20", "otherBids": [{"team": "DocBallerPHDs", "bid": 7}]},
+        {"player": "Sterling Shepard", "position": "WR", "nflTeam": "TB", "winningBid": 37, "winner": "Lineman Rule", "date": "Sep 5", "otherBids": [{"team": "Mighty Hamsters", "bid": 0}]},
+        {"player": "Carlos Hyde", "position": "RB", "nflTeam": "Jax", "winningBid": 36, "winner": "Fumblerooskis", "date": "Oct 2", "otherBids": [{"team": "Lineman Rule", "bid": 2}, {"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Harrison Butker", "position": "K", "nflTeam": "KC", "winningBid": 32, "winner": "Victorious Secret", "date": "Nov 27", "otherBids": [{"team": "The Majdic", "bid": 4}]},
+        {"player": "Jordan Howard", "position": "RB", "nflTeam": "NO", "winningBid": 31, "winner": "The Practice Blows", "date": "Oct 2", "otherBids": [{"team": "Straight Cash Homiez", "bid": 13}, {"team": "MexiCAN Gnomes", "bid": 12}, {"team": "The Majdic", "bid": 8}, {"team": "Lineman Rule", "bid": 5}]},
+        {"player": "LeSean McCoy", "position": "RB", "nflTeam": "TB", "winningBid": 25, "winner": "The Majdic", "date": "Sep 3", "otherBids": [{"team": "Lineman Rule", "bid": 22}, {"team": "Fumblerooskis", "bid": 9}, {"team": "MexiCAN Gnomes", "bid": 7}, {"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Kenyan Drake", "position": "RB", "nflTeam": "Bal", "winningBid": 23, "winner": "Straight Cash Homiez", "date": "Oct 30", "otherBids": []},
+        {"player": "Demarcus Robinson", "position": "WR", "nflTeam": "SF", "winningBid": 23, "winner": "Mighty Hamsters", "date": "Sep 18", "otherBids": [{"team": "Hahahahahahaha's", "bid": 20}, {"team": "MYBITCHES", "bid": 14}, {"team": "The Majdic", "bid": 5}, {"team": "Straight Cash Homiez", "bid": 2}]},
+        {"player": "John Ross", "position": "WR", "nflTeam": "Phi", "winningBid": 20, "winner": "Straight Cash Homiez", "date": "Sep 11", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 5}, {"team": "MYBITCHES", "bid": 4}]},
+        {"player": "Benny Snell Jr.", "position": "RB", "nflTeam": "Pit", "winningBid": 17, "winner": "MexiCAN Gnomes", "date": "Nov 27", "otherBids": [{"team": "Hahahahahahaha's", "bid": 11}, {"team": "The Majdic", "bid": 6}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Lions", "position": "DEF", "nflTeam": "Det", "winningBid": 15, "winner": "MYBITCHES", "date": "Nov 20", "otherBids": [{"team": "Hahahahahahaha's", "bid": 14}, {"team": "The Practice Blows", "bid": 3}]},
+        {"player": "Ty Montgomery II", "position": "RB", "nflTeam": "NE", "winningBid": 12, "winner": "Fumblerooskis", "date": "Sep 14", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 3}]},
+        {"player": "Ravens", "position": "DEF", "nflTeam": "Bal", "winningBid": 12, "winner": "Fumblerooskis", "date": "Nov 7", "otherBids": [{"team": "Lineman Rule", "bid": 8}, {"team": "The Practice Blows", "bid": 6}, {"team": "MexiCAN Gnomes", "bid": 4}, {"team": "Mighty Hamsters", "bid": 3}, {"team": "Straight Cash Homiez", "bid": 3}]},
+        {"player": "Browns", "position": "DEF", "nflTeam": "Cle", "winningBid": 12, "winner": "Victorious Secret", "date": "Oct 30", "otherBids": [{"team": "Straight Cash Homiez", "bid": 3}, {"team": "Fumblerooskis", "bid": 0}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Zach Pascal", "position": "WR", "nflTeam": "NYG", "winningBid": 10, "winner": "The Practice Blows", "date": "Dec 4", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Eagles", "position": "DEF", "nflTeam": "Phi", "winningBid": 10, "winner": "Mighty Hamsters", "date": "Nov 20", "otherBids": [{"team": "Amish Rake Fight", "bid": 3}, {"team": "Fumblerooskis", "bid": 1}]},
+        {"player": "Austin Hooper", "position": "TE", "nflTeam": "NE", "winningBid": 9, "winner": "MexiCAN Gnomes", "date": "Nov 24", "otherBids": [{"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Darrel Williams", "position": "RB", "nflTeam": "Ari", "winningBid": 9, "winner": "Hahahahahahaha's", "date": "Oct 2", "otherBids": [{"team": "The Majdic", "bid": 4}, {"team": "Lineman Rule", "bid": 1}]},
+        {"player": "Breshad Perriman", "position": "WR", "nflTeam": "TB", "winningBid": 8, "winner": "DocBallerPHDs", "date": "Dec 18", "otherBids": [{"team": "Fumblerooskis", "bid": 1}, {"team": "The Majdic", "bid": 0}]}
+      ],
+      "trades": [
+        {"date": "Nov 9", "description": "Emmanuel Sanders to The Majdic / James White to Lineman Rule"},
+        {"date": "Oct 23", "description": "Sony Michel to The Majdic / Dede Westbrook to Mighty Hamsters"},
+        {"date": "Oct 17", "description": "Will Fuller V + Tarik Cohen + Damien Williams to Fumblerooskis / Tevin Coleman + Hollywood Brown to The Practice Blows"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 78,
+        "totalTrades": 6,
+        "mostActiveFaabTeams": ["Lineman Rule", "MexiCAN Gnomes", "The Majdic"],
+        "biggestFaabSpend": {"player": "Brian Hill", "amount": 83, "team": "Little Strong Women"},
+        "notableTrades": ["Will Fuller V multi-player trade", "Emmanuel Sanders trade"],
+        "champion": "The Majdic (Nima)"
+      }
+    },
+    "2020": {
+      "leagueYahooId": "818924",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Devonta Freeman", "position": "RB", "nflTeam": "Bal", "winningBid": 65, "winner": "MexiCAN Gnomes", "date": "Sep 23", "otherBids": [{"team": "DocBallerPHDs", "bid": 15}, {"team": "The Majdic", "bid": 15}, {"team": "Little Strong Women", "bid": 15}, {"team": "The Practice Blows", "bid": 14}, {"team": "MYBITCHES", "bid": 3}]},
+        {"player": "Benny Snell Jr.", "position": "RB", "nflTeam": "Pit", "winningBid": 56, "winner": "MYBITCHES", "date": "Sep 16", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 17}, {"team": "Straight Cash Homiez", "bid": 17}, {"team": "The Majdic", "bid": 15}, {"team": "Little Strong Women", "bid": 9}, {"team": "Lineman Rule", "bid": 7}]},
+        {"player": "Mike Davis", "position": "RB", "nflTeam": "Bal", "winningBid": 45, "winner": "Straight Cash Homiez", "date": "Sep 23", "otherBids": [{"team": "DocBallerPHDs", "bid": 21}, {"team": "The Majdic", "bid": 11}, {"team": "MexiCAN Gnomes", "bid": 5}, {"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Kalen Ballage", "position": "RB", "nflTeam": "Pit", "winningBid": 42, "winner": "Lineman Rule", "date": "Nov 18", "otherBids": [{"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Nyheim Miller-Hines", "position": "RB", "nflTeam": "LAC", "winningBid": 42, "winner": "Victorious Secret", "date": "Sep 16", "otherBids": [{"team": "Fumblerooskis", "bid": 26}, {"team": "Mighty Hamsters", "bid": 21}, {"team": "The Majdic", "bid": 15}, {"team": "MexiCAN Gnomes", "bid": 5}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Chris Thompson", "position": "RB", "nflTeam": "SF", "winningBid": 36, "winner": "Fumblerooskis", "date": "Sep 2", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 6}]},
+        {"player": "Andy Dalton", "position": "QB", "nflTeam": "Car", "winningBid": 32, "winner": "DocBallerPHDs", "date": "Oct 15", "otherBids": [{"team": "Lineman Rule", "bid": 17}]},
+        {"player": "D'Ernest Johnson", "position": "RB", "nflTeam": "NE", "winningBid": 31, "winner": "The Majdic", "date": "Oct 7", "otherBids": [{"team": "DocBallerPHDs", "bid": 30}, {"team": "Mighty Hamsters", "bid": 28}, {"team": "Lineman Rule", "bid": 16}, {"team": "MYBITCHES", "bid": 3}, {"team": "Straight Cash Homiez", "bid": 0}]},
+        {"player": "Myles Gaskin", "position": "RB", "nflTeam": "Sea", "winningBid": 28, "winner": "Straight Cash Homiez", "date": "Sep 23", "otherBids": [{"team": "The Majdic", "bid": 10}]},
+        {"player": "Darrell Henderson Jr.", "position": "RB", "nflTeam": "LAR", "winningBid": 25, "winner": "Little Strong Women", "date": "Sep 23", "otherBids": [{"team": "The Majdic", "bid": 20}, {"team": "Mighty Hamsters", "bid": 19}, {"team": "MexiCAN Gnomes", "bid": 6}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Tim Patrick", "position": "WR", "nflTeam": "Jax", "winningBid": 25, "winner": "Amish Rake Fight", "date": "Nov 11", "otherBids": [{"team": "Little Strong Women", "bid": 6}]},
+        {"player": "Justin Jackson", "position": "RB", "nflTeam": "Det", "winningBid": 22, "winner": "The Majdic", "date": "Oct 7", "otherBids": [{"team": "Lineman Rule", "bid": 16}, {"team": "DocBallerPHDs", "bid": 9}]},
+        {"player": "Tua Tagovailoa", "position": "QB", "nflTeam": "Mia", "winningBid": 19, "winner": "Mighty Hamsters", "date": "Nov 11", "otherBids": [{"team": "Fumblerooskis", "bid": 11}, {"team": "The Practice Blows", "bid": 3}]},
+        {"player": "Boston Scott", "position": "RB", "nflTeam": "Pit", "winningBid": 16, "winner": "DocBallerPHDs", "date": "Oct 21", "otherBids": [{"team": "Fumblerooskis", "bid": 5}]},
+        {"player": "Tee Higgins", "position": "WR", "nflTeam": "Cin", "winningBid": 16, "winner": "Mighty Hamsters", "date": "Sep 30", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 6}]},
+        {"player": "Dion Lewis", "position": "RB", "nflTeam": "NYG", "winningBid": 15, "winner": "MexiCAN Gnomes", "date": "Sep 23", "otherBids": [{"team": "Straight Cash Homiez", "bid": 0}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Tim Patrick", "position": "WR", "nflTeam": "Jax", "winningBid": 13, "winner": "Hahahahahahaha's", "date": "Oct 7", "otherBids": [{"team": "The Majdic", "bid": 6}]},
+        {"player": "Gus Edwards", "position": "RB", "nflTeam": "LAC", "winningBid": 13, "winner": "Victorious Secret", "date": "Nov 4", "otherBids": [{"team": "Fumblerooskis", "bid": 1}]},
+        {"player": "Darius Slayton", "position": "WR", "nflTeam": "NYG", "winningBid": 13, "winner": "Mighty Hamsters", "date": "Oct 21", "otherBids": [{"team": "Amish Rake Fight", "bid": 10}, {"team": "The Practice Blows", "bid": 8}, {"team": "Fumblerooskis", "bid": 3}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Browns", "position": "DEF", "nflTeam": "Cle", "winningBid": 12, "winner": "Lineman Rule", "date": "Nov 25", "otherBids": [{"team": "Lineman Rule", "bid": 9}, {"team": "The Practice Blows", "bid": 1}]}
+      ],
+      "trades": [
+        {"date": "Nov 4", "description": "Brandon Aiyuk + Deshaun Watson + Rodrigo Blankenship + Devonta Freeman to Lineman Rule / Antonio Brown + Carson Wentz + D'Andre Swift to MexiCAN Gnomes"},
+        {"date": "Oct 13", "description": "Devin Singletary to MexiCAN Gnomes / Robert Tonyan + Leonard Fournette to The Practice Blows"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 65,
+        "totalTrades": 4,
+        "mostActiveFaabTeams": ["Lineman Rule", "The Majdic", "MexiCAN Gnomes"],
+        "biggestFaabSpend": {"player": "Devonta Freeman", "amount": 65, "team": "MexiCAN Gnomes"},
+        "notableTrades": ["Brandon Aiyuk + Deshaun Watson blockbuster", "D'Andre Swift trade"],
+        "champion": "The Majdic (Nima)"
+      }
+    },
+    "2021": {
+      "leagueYahooId": "258578",
+      "faabBudget": 100,
+      "waiverType": "FAAB (Free Agent Acquisition Budget)",
+      "fabOffers": [
+        {"player": "Pat Freiermuth", "position": "TE", "nflTeam": "Pit", "winningBid": 35, "winner": "MYBITCHES", "date": "Nov 10", "otherBids": [{"team": "The Majdic", "bid": 5}, {"team": "The Practice Blows", "bid": 3}]},
+        {"player": "Ronald Jones", "position": "RB", "nflTeam": "Dal", "winningBid": 30, "winner": "Victorious Secret", "date": "Dec 23", "otherBids": [{"team": "Fumblerooskis", "bid": 13}]},
+        {"player": "Brandon Aiyuk", "position": "WR", "nflTeam": "SF", "winningBid": 27, "winner": "Lineman Rule", "date": "Nov 10", "otherBids": [{"team": "The Practice Blows", "bid": 0}]},
+        {"player": "Jeremy McNichols", "position": "RB", "nflTeam": "Was", "winningBid": 27, "winner": "Mighty Hamsters", "date": "Nov 3", "otherBids": [{"team": "Victorious Secret", "bid": 18}, {"team": "Fumblerooskis", "bid": 11}, {"team": "The Majdic", "bid": 9}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Devontae Booker", "position": "RB", "nflTeam": "NYG", "winningBid": 23, "winner": "Straight Cash Homiez", "date": "Oct 13", "otherBids": [{"team": "MexiCAN Gnomes", "bid": 6}]},
+        {"player": "Kadarius Toney", "position": "WR", "nflTeam": "Cle", "winningBid": 22, "winner": "Lineman Rule", "date": "Oct 13", "otherBids": [{"team": "The Majdic", "bid": 17}, {"team": "Victorious Secret", "bid": 5}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "D'Onta Foreman", "position": "RB", "nflTeam": "Cle", "winningBid": 21, "winner": "Hahahahahahaha's", "date": "Nov 17", "otherBids": [{"team": "Victorious Secret", "bid": 12}, {"team": "Little Strong Women", "bid": 11}, {"team": "Fumblerooskis", "bid": 11}]},
+        {"player": "Tim Patrick", "position": "WR", "nflTeam": "Jax", "winningBid": 18, "winner": "The Majdic", "date": "Sep 29", "otherBids": [{"team": "The Practice Blows", "bid": 4}]},
+        {"player": "Dalton Schultz", "position": "TE", "nflTeam": "Hou", "winningBid": 17, "winner": "DocBallerPHDs", "date": "Oct 6", "otherBids": [{"team": "Mighty Hamsters", "bid": 13}, {"team": "MexiCAN Gnomes", "bid": 10}, {"team": "Straight Cash Homiez", "bid": 5}]},
+        {"player": "Jaylen Waddle", "position": "WR", "nflTeam": "Mia", "winningBid": 17, "winner": "Mighty Hamsters", "date": "Oct 3", "otherBids": [{"team": "Lineman Rule", "bid": 2}]},
+        {"player": "Saints", "position": "DEF", "nflTeam": "NO", "winningBid": 16, "winner": "MexiCAN Gnomes", "date": "Dec 8", "otherBids": [{"team": "Lineman Rule", "bid": 6}, {"team": "Straight Cash Homiez", "bid": 4}]},
+        {"player": "Rashaad Penny", "position": "RB", "nflTeam": "Phi", "winningBid": 15, "winner": "DocBallerPHDs", "date": "Dec 15", "otherBids": [{"team": "Victorious Secret", "bid": 15, "reason": "Lower waiver priority"}, {"team": "Fumblerooskis", "bid": 12}, {"team": "Straight Cash Homiez", "bid": 12}, {"team": "Hahahahahahaha's", "bid": 10}, {"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "Adrian Peterson", "position": "RB", "nflTeam": "Sea", "winningBid": 15, "winner": "MexiCAN Gnomes", "date": "Nov 3", "otherBids": [{"team": "DocBallerPHDs", "bid": 13}, {"team": "Mighty Hamsters", "bid": 13}, {"team": "The Majdic", "bid": 10}, {"team": "Victorious Secret", "bid": 8}, {"team": "Lineman Rule", "bid": 0}]},
+        {"player": "Gabe Davis", "position": "WR", "nflTeam": "Buf", "winningBid": 13, "winner": "Fumblerooskis", "date": "Dec 23", "otherBids": [{"team": "Hahahahahahaha's", "bid": 8}, {"team": "Fumblerooskis", "bid": 1}, {"team": "MexiCAN Gnomes", "bid": 0}]},
+        {"player": "A.J. Green", "position": "WR", "nflTeam": "Ari", "winningBid": 13, "winner": "MexiCAN Gnomes", "date": "Oct 6", "otherBids": [{"team": "The Majdic", "bid": 12}, {"team": "Victorious Secret", "bid": 4}]},
+        {"player": "Emmanuel Sanders", "position": "WR", "nflTeam": "Buf", "winningBid": 12, "winner": "The Majdic", "date": "Sep 29", "otherBids": [{"team": "Victorious Secret", "bid": 4}]},
+        {"player": "Broncos", "position": "DEF", "nflTeam": "Den", "winningBid": 11, "winner": "Fumblerooskis", "date": "Nov 17", "otherBids": [{"team": "Victorious Secret", "bid": 5}]},
+        {"player": "Brandon Bolden", "position": "RB", "nflTeam": "LV", "winningBid": 11, "winner": "Fumblerooskis", "date": "Nov 10", "otherBids": [{"team": "Victorious Secret", "bid": 7}]},
+        {"player": "Damien Williams", "position": "RB", "nflTeam": "Ari", "winningBid": 10, "winner": "The Majdic", "date": "Oct 6", "otherBids": [{"team": "Victorious Secret", "bid": 7}, {"team": "The Practice Blows", "bid": 7}, {"team": "Lineman Rule", "bid": 3}]},
+        {"player": "Sony Michel", "position": "RB", "nflTeam": "LAC", "winningBid": 10, "winner": "Victorious Secret", "date": "Nov 10", "otherBids": [{"team": "Fumblerooskis", "bid": 1}, {"team": "Lineman Rule", "bid": 0}]}
+      ],
+      "trades": [
+        {"date": "Nov 20", "description": "Rob Gronkowski to DocBallerPHDs / Kenyan Drake to Victorious Secret"},
+        {"date": "Nov 18", "description": "Jerry Jeudy + Alexander Mattison to DocBallerPHDs / Kareem Hunt + D'Ernest Johnson to The Practice Blows"},
+        {"date": "Nov 11", "description": "Diontae Johnson + Keenan Allen to Lineman Rule / James Conner + Hunter Renfrow to DocBallerPHDs"},
+        {"date": "Nov 2", "description": "Calvin Ridley + Boston Scott to Straight Cash Homiez / DeVonta Smith + Elijah Mitchell to Lineman Rule"},
+        {"date": "Oct 26", "description": "Jamaal Williams + DeVante Parker + Josh Allen + Jarvis Landry to Fumblerooskis (multi-team trade)"}
+      ],
+      "summary": {
+        "totalFaabTransactions": 67,
+        "totalTrades": 7,
+        "mostActiveFaabTeams": ["Lineman Rule", "MexiCAN Gnomes", "Fumblerooskis"],
+        "biggestFaabSpend": {"player": "Pat Freiermuth", "amount": 35, "team": "MYBITCHES"},
+        "notableTrades": ["Josh Allen multi-team trade", "Keenan Allen + Diontae Johnson trade"]
+      }
+    }
+  }
+}
