@@ -1,9 +1,199 @@
 {
   "leagueName": "The EZ League",
   "leagueId": "ezldolphins",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-03T19:15:23Z",
+  "dataSource": "Yahoo Fantasy Sports API + Web Scraping",
   "description": "Playoff brackets and results for all seasons",
   "seasons": {
+    "2004": {
+      "results": {
+        "champion": "Quint Connection",
+        "runnerUp": "Lineman Rule",
+        "thirdPlace": "Little Strong Women"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2005": {
+      "results": {
+        "champion": "Lineman Rule",
+        "manager": "Daniel F",
+        "runnerUp": "Little Strong Women",
+        "thirdPlace": "Hahahahahahaha's"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2006": {
+      "results": {
+        "champion": "Lineman Rule",
+        "manager": "Daniel F",
+        "runnerUp": "DawgSoldiers",
+        "thirdPlace": "The Majdic"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2007": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "T",
+        "runnerUp": "The Majdic",
+        "thirdPlace": "MexiCAN Gnomes"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2008": {
+      "results": {
+        "champion": "The Majdic",
+        "manager": "Nima",
+        "runnerUp": "Amish Rake Fight",
+        "thirdPlace": "Mighty Hamsters"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2009": {
+      "results": {
+        "champion": "Lineman Rule",
+        "manager": "Daniel F",
+        "runnerUp": "The Majdic",
+        "thirdPlace": "Mighty Hamsters"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2010": {
+      "results": {
+        "champion": "MYBITCHES",
+        "manager": "AustinB",
+        "runnerUp": "Prolly-Finishin-Last",
+        "thirdPlace": "MexiCAN Gnomes"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2011": {
+      "results": {
+        "champion": "Hahahahahahaha's",
+        "manager": "job",
+        "runnerUp": "Mighty Hamsters",
+        "thirdPlace": "Fumblerooskis"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2012": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Lineman Rule",
+        "thirdPlace": "MexiCAN Gnomes"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2013": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Little Strong Women",
+        "thirdPlace": "Lineman Rule"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2014": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Lineman Rule",
+        "thirdPlace": "Fumblerooskis"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2015": {
+      "results": {
+        "champion": "The Majdic",
+        "manager": "Nima",
+        "runnerUp": "Lineman Rule",
+        "thirdPlace": "Fumblerooskis"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2016": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Hahahahahahaha's",
+        "thirdPlace": "MYBITCHES"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2017": {
+      "results": {
+        "champion": "Amish Rake Fight",
+        "manager": "Yoseph",
+        "runnerUp": "Fumblerooskis",
+        "thirdPlace": "MYBITCHES"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2018": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Straight Cash Homiez",
+        "thirdPlace": "MexiCAN Gnomes"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2019": {
+      "results": {
+        "champion": "The Majdic",
+        "manager": "Nima",
+        "runnerUp": "DocBallerPHDs",
+        "thirdPlace": "MexiCAN Gnomes"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2020": {
+      "results": {
+        "champion": "The Majdic",
+        "manager": "Nima",
+        "runnerUp": "Lineman Rule",
+        "thirdPlace": "Victorious Secret"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2021": {
+      "results": {
+        "champion": "Hahahahahahaha's",
+        "manager": "job",
+        "runnerUp": "Victorious Secret",
+        "thirdPlace": "Fumblerooskis"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2022": {
+      "results": {
+        "champion": "MexiCAN Gnomes",
+        "manager": "Brad Head",
+        "runnerUp": "Victorious Secret",
+        "thirdPlace": "Mighty Hamsters"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2023": {
+      "results": {
+        "champion": "Mighty Hamsters",
+        "manager": "John",
+        "runnerUp": "Fumblerooskis",
+        "thirdPlace": "MYBITCHES"
+      },
+      "note": "Detailed bracket data to be added"
+    },
+    "2024": {
+      "leagueYahooId": "668900",
+      "format": "6-team playoff",
+      "results": {
+        "champion": "Fumblerooskis",
+        "runnerUp": "Little Strong Women",
+        "thirdPlace": "Lineman Rule"
+      },
+      "note": "Detailed bracket data to be added"
+    },
     "2025": {
       "leagueYahooId": "107439",
       "format": "6-team playoff",
@@ -36,7 +226,7 @@
             "matchup": 2,
             "seed1": 4,
             "team1": "Fumblerooskis",
-            "score1": 98.90,
+            "score1": 98.9,
             "seed2": 5,
             "team2": "Straight Cash Homiez",
             "score2": 95.76,
@@ -46,7 +236,7 @@
             "matchup": 3,
             "seed1": 3,
             "team1": "The Practice Blows",
-            "score1": 92.90,
+            "score1": 92.9,
             "seed2": 6,
             "team2": "Lineman Rule",
             "score2": 82.06,
@@ -72,14 +262,14 @@
             "score1": 148.06,
             "seed2": 4,
             "team2": "Fumblerooskis",
-            "score2": 123.00,
+            "score2": 123.0,
             "winner": "DocBallerPHDs"
           },
           {
             "matchup": 2,
             "seed1": 3,
             "team1": "The Practice Blows",
-            "score1": 105.80,
+            "score1": 105.8,
             "seed2": 2,
             "team2": "Little Strong Women",
             "score2": 87.94,
@@ -90,7 +280,7 @@
           "championship": {
             "seed1": 1,
             "team1": "DocBallerPHDs",
-            "score1": 120.00,
+            "score1": 120.0,
             "seed2": 3,
             "team2": "The Practice Blows",
             "score2": 100.04,
@@ -107,170 +297,6 @@
           }
         }
       }
-    },
-    "2024": {
-      "leagueYahooId": "668900",
-      "format": "6-team playoff",
-      "results": {
-        "champion": "Fumblerooskis",
-        "runnerUp": "Little Strong Women",
-        "thirdPlace": "Lineman Rule"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2023": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John",
-        "runnerUp": "Fumblerooskis",
-        "thirdPlace": "MYBITCHES"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2022": {
-      "results": {
-        "champion": "MexiCAN Gnomes",
-        "manager": "Brad Head",
-        "runnerUp": "Victorious Secret",
-        "thirdPlace": "Mighty Hamsters"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2021": {
-      "results": {
-        "champion": "Hahahahahahaha's",
-        "manager": "job",
-        "runnerUp": "Victorious Secret"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2020": {
-      "results": {
-        "champion": "The Majdic",
-        "manager": "Nima",
-        "runnerUp": "Lineman Rule",
-        "thirdPlace": "Victorious Secret"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2019": {
-      "results": {
-        "champion": "The Majdic",
-        "manager": "Nima",
-        "runnerUp": "DocBallerPHDs",
-        "thirdPlace": "MexiCAN Gnomes"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2018": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John",
-        "runnerUp": "Straight Cash HoFers",
-        "thirdPlace": "MexiCAN Gnomes"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2017": {
-      "results": {
-        "champion": "Amish Rake Fight",
-        "manager": "Yoseph",
-        "runnerUp": "Fumblerooskis",
-        "thirdPlace": "MYBITCHES"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2016": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2015": {
-      "results": {
-        "champion": "The Majdic",
-        "manager": "Nima"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2014": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2013": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2012": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "John"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2011": {
-      "results": {
-        "champion": "Hahahahahahaha's",
-        "manager": "job"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2010": {
-      "results": {
-        "champion": "MYBITCHES",
-        "manager": "AustinB",
-        "runnerUp": "Prolly-Finishin-Last",
-        "thirdPlace": "MexiCAN gnomes"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2009": {
-      "results": {
-        "champion": "Lineman Rule",
-        "manager": "Daniel F"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2008": {
-      "results": {
-        "champion": "Team Majdic",
-        "manager": "Nima"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2007": {
-      "results": {
-        "champion": "Mighty Hamsters",
-        "manager": "T"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2006": {
-      "results": {
-        "champion": "Lineman Rule",
-        "manager": "Daniel F"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2005": {
-      "results": {
-        "champion": "Linemen Rule",
-        "manager": "Daniel F"
-      },
-      "note": "Detailed bracket data to be added"
-    },
-    "2004": {
-      "results": {
-        "champion": "Quint Connection"
-      },
-      "note": "Detailed bracket data to be added"
     }
   }
 }

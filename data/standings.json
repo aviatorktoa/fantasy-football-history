@@ -1,308 +1,3502 @@
 {
   "leagueName": "The EZ League",
   "leagueId": "ezldolphins",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-03T19:15:23Z",
+  "dataSource": "Yahoo Fantasy Sports API + Web Scraping",
   "totalSeasons": 22,
   "seasons": {
-    "2025": {
-      "champion": "DocBallerPHDs",
+    "2004": {
+      "leagueKey": "101.l.278070",
+      "leagueName": "theezleague",
+      "numTeams": 10,
+      "champion": {
+        "team": "Quint Connection",
+        "manager": "--hidden--"
+      },
       "standings": [
-        {"rank": "*1", "team": "DocBallerPHDs", "record": "10-4-0", "pf": "1625.30", "pa": "1440.78"},
-        {"rank": "*2", "team": "The Practice Blows", "record": "9-5-0", "pf": "1454.88", "pa": "1318.56"},
-        {"rank": "*3", "team": "Little Strong Women", "record": "9-5-0", "pf": "1498.80", "pa": "1360.38"},
-        {"rank": "*4", "team": "Fumblerooskis", "record": "8-6-0", "pf": "1474.92", "pa": "1402.14"},
-        {"rank": "*5", "team": "Lineman Rule", "record": "7-7-0", "pf": "1525.96", "pa": "1429.88"},
-        {"rank": "*6", "team": "Straight Cash Homiez", "record": "8-6-0", "pf": "1367.56", "pa": "1327.04"},
-        {"rank": "7", "team": "Mighty Hamsters", "record": "7-7-0", "pf": "1409.76", "pa": "1449.94"},
-        {"rank": "8", "team": "MYBITCHES", "record": "6-8-0", "pf": "1358.18", "pa": "1443.56"},
-        {"rank": "9", "team": "The Majdic", "record": "5-9-0", "pf": "1419.92", "pa": "1547.00"},
-        {"rank": "10", "team": "Hahahahahahaha's", "record": "5-9-0", "pf": "1336.38", "pa": "1534.14"},
-        {"rank": "11", "team": "MexiCAN Gnomes", "record": "5-9-0", "pf": "1331.48", "pa": "1430.98"},
-        {"rank": "12", "team": "Victorious Secret", "record": "5-9-0", "pf": "1312.86", "pa": "1433.84"}
-      ]
-    },
-    "2024": {
-      "champion": "Fumblerooskis",
-      "standings": [
-        {"rank": "*1", "team": "Fumblerooskis", "record": "8-6-0", "pf": "1437.64", "pa": "1450.44"},
-        {"rank": "*2", "team": "Little Strong Women", "record": "9-5-0", "pf": "1575.74", "pa": "1496.20"},
-        {"rank": "*3", "team": "Lineman Rule", "record": "10-4-0", "pf": "1514.14", "pa": "1349.32"},
-        {"rank": "*4", "team": "DocBallerPHDs", "record": "11-3-0", "pf": "1550.84", "pa": "1346.62"},
-        {"rank": "*5", "team": "Victorious Secret", "record": "8-6-0", "pf": "1412.10", "pa": "1402.80"},
-        {"rank": "*6", "team": "MexiCAN Gnomes", "record": "8-6-0", "pf": "1437.44", "pa": "1448.72"},
-        {"rank": "7", "team": "The Practice Blows", "record": "7-7-0", "pf": "1424.96", "pa": "1432.60"},
-        {"rank": "8", "team": "Hahahahahahaha's", "record": "6-8-0", "pf": "1378.76", "pa": "1421.90"},
-        {"rank": "9", "team": "Straight Cash Homiez", "record": "6-8-0", "pf": "1422.84", "pa": "1418.10"},
-        {"rank": "10", "team": "The Majdic", "record": "5-9-0", "pf": "1384.62", "pa": "1469.30"},
-        {"rank": "11", "team": "MYBITCHES", "record": "3-11-0", "pf": "1241.40", "pa": "1395.80"},
-        {"rank": "12", "team": "Mighty Hamsters", "record": "3-11-0", "pf": "1292.16", "pa": "1459.90"}
-      ]
-    },
-    "2023": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "8-6-0", "pf": "1491.48", "pa": "1360.54"},
-        {"rank": "*2", "team": "Fumblerooskis", "record": "8-6-0", "pf": "1511.32", "pa": "1418.84"},
-        {"rank": "*3", "team": "MYBITCHES", "record": "9-5-0", "pf": "1353.72", "pa": "1198.40"},
-        {"rank": "*4", "team": "Little Strong Women", "record": "8-6-0", "pf": "1606.36", "pa": "1475.56"},
-        {"rank": "*5", "team": "Lineman Rule", "record": "8-6-0", "pf": "1360.76", "pa": "1414.38"},
-        {"rank": "*6", "team": "DocBallerPHDs", "record": "8-6-0", "pf": "1490.82", "pa": "1411.58"},
-        {"rank": "7", "team": "MexiCAN Gnomes", "record": "6-8-0", "pf": "1360.84", "pa": "1559.26"},
-        {"rank": "8", "team": "Victorious Secret", "record": "4-10-0", "pf": "1393.98", "pa": "1461.74"},
-        {"rank": "9", "team": "Straight Cash Homiez", "record": "6-8-0", "pf": "1394.80", "pa": "1462.56"},
-        {"rank": "10", "team": "The Majdic", "record": "7-7-0", "pf": "1254.10", "pa": "1351.58"},
-        {"rank": "11", "team": "The Practice Blows", "record": "6-8-0", "pf": "1267.50", "pa": "1352.38"},
-        {"rank": "12", "team": "Hahahahahahaha's", "record": "6-8-0", "pf": "1366.80", "pa": "1385.66"}
-      ]
-    },
-    "2022": {
-      "champion": "MexiCAN Gnomes",
-      "standings": [
-        {"rank": "*1", "team": "MexiCAN Gnomes", "record": "9-5-0", "pf": "1515.30", "pa": "1399.38"},
-        {"rank": "*2", "team": "Victorious Secret", "record": "7-7-0", "pf": "1469.02", "pa": "1437.22"},
-        {"rank": "*3", "team": "Mighty Hamsters", "record": "9-5-0", "pf": "1555.94", "pa": "1394.08"},
-        {"rank": "*4", "team": "Straight Cash Homiez", "record": "12-2-0", "pf": "1640.76", "pa": "1289.38"},
-        {"rank": "*5", "team": "DocBallerPHDs", "record": "8-6-0", "pf": "1478.84", "pa": "1355.12"},
-        {"rank": "*6", "team": "Fumblerooskis", "record": "7-7-0", "pf": "1454.46", "pa": "1498.70"},
-        {"rank": "7", "team": "Hahahahahahaha's", "record": "6-8-0", "pf": "1323.46", "pa": "1515.04"},
-        {"rank": "8", "team": "Lineman Rule", "record": "6-8-0", "pf": "1438.18", "pa": "1469.90"},
-        {"rank": "9", "team": "The Majdic", "record": "5-9-0", "pf": "1299.14", "pa": "1418.70"},
-        {"rank": "10", "team": "The Practice Blows", "record": "6-8-0", "pf": "1406.50", "pa": "1421.78"},
-        {"rank": "11", "team": "MYBITCHES", "record": "6-8-0", "pf": "1277.66", "pa": "1427.24"},
-        {"rank": "12", "team": "Little Strong Women", "record": "3-11-0", "pf": "1176.46", "pa": "1409.18"}
-      ]
-    },
-    "2021": {
-      "champion": "Hahahahahahaha's",
-      "standings": [
-        {"rank": "*1", "team": "Hahahahahahaha's", "record": "8-6-0", "pf": "1452.22", "pa": "1449.84"},
-        {"rank": "*2", "team": "Victorious Secret", "record": "10-4-0", "pf": "1599.28", "pa": "1456.52"},
-        {"rank": "*3", "team": "Fumblerooskis", "record": "8-6-0", "pf": "1395.48", "pa": "1422.10"},
-        {"rank": "*4", "team": "MexiCAN Gnomes", "record": "10-4-0", "pf": "1665.36", "pa": "1347.96"},
-        {"rank": "*5", "team": "DocBallerPHDs", "record": "9-5-0", "pf": "1620.92", "pa": "1576.66"},
-        {"rank": "*6", "team": "Straight Cash Homiez", "record": "9-5-0", "pf": "1489.00", "pa": "1290.12"},
-        {"rank": "7", "team": "The Practice Blows", "record": "5-9-0", "pf": "1258.72", "pa": "1442.02"},
-        {"rank": "8", "team": "The Majdic", "record": "5-9-0", "pf": "1442.62", "pa": "1522.32"},
-        {"rank": "9", "team": "Lineman Rule", "record": "7-7-0", "pf": "1365.90", "pa": "1396.32"},
-        {"rank": "10", "team": "Mighty Hamsters", "record": "3-11-0", "pf": "1356.94", "pa": "1510.36"},
-        {"rank": "11", "team": "Little Strong Women", "record": "6-8-0", "pf": "1264.84", "pa": "1356.48"},
-        {"rank": "12", "team": "MYBITCHES", "record": "5-9-0", "pf": "1364.20", "pa": "1471.28"}
-      ]
-    },
-    "2020": {
-      "champion": "The Majdic",
-      "standings": [
-        {"rank": "*1", "team": "The Majdic", "record": "11-2-0", "pf": "1231.02", "pa": "1048.54"},
-        {"rank": "*2", "team": "Lineman Rule", "record": "7-6-0", "pf": "1259.24", "pa": "1175.16"},
-        {"rank": "*3", "team": "Victorious Secret", "record": "10-3-0", "pf": "1197.84", "pa": "1032.80"}
-      ]
-    },
-    "2019": {
-      "champion": "The Majdic",
-      "standings": [
-        {"rank": "*1", "team": "The Majdic", "record": "7-6-0", "pf": "1371.48", "pa": "1268.92"},
-        {"rank": "*2", "team": "DocBallerPHDs", "record": "9-4-0", "pf": "1522.92", "pa": "1177.06"},
-        {"rank": "*3", "team": "MexiCAN Gnomes", "record": "7-6-0", "pf": "1248.46", "pa": "1138.08"},
-        {"rank": "*4", "team": "Fumblerooskis", "record": "10-3-0", "pf": "1479.62", "pa": "1191.68"},
-        {"rank": "*5", "team": "Lineman Rule", "record": "8-5-0", "pf": "1423.38", "pa": "1256.44"},
-        {"rank": "*6", "team": "The Practice Blows", "record": "7-6-0", "pf": "1362.42", "pa": "1310.16"},
-        {"rank": "*7", "team": "Hahahahahahaha's", "record": "10-3-0", "pf": "1360.46", "pa": "1165.98"},
-        {"rank": "*8", "team": "Mighty Hamsters", "record": "7-6-0", "pf": "1200.78", "pa": "1215.42"}
-      ]
-    },
-    "2018": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "10-3-0", "pf": "1427.08", "pa": "1188.34"},
-        {"rank": "*2", "team": "Straight Cash HoFers", "record": "8-5-0", "pf": "1434.16", "pa": "1245.34"},
-        {"rank": "*3", "team": "MexiCAN Gnomes", "record": "9-4-0", "pf": "1516.32", "pa": "1216.88"},
-        {"rank": "*4", "team": "DocBallerPHDs", "record": "7-6-0", "pf": "1368.42", "pa": "1337.60"},
-        {"rank": "*5", "team": "The Practice Blows", "record": "8-5-0", "pf": "1454.14", "pa": "1267.18"},
-        {"rank": "*6", "team": "Amish Rake Fight", "record": "8-5-0", "pf": "1273.52", "pa": "1127.42"},
-        {"rank": "*7", "team": "Lineman Rule", "record": "8-5-0", "pf": "1426.88", "pa": "1285.84"},
-        {"rank": "*8", "team": "Hahahahahahaha's", "record": "11-2-0", "pf": "1619.36", "pa": "1264.38"}
-      ]
-    },
-    "2017": {
-      "champion": "Amish Rake Fight",
-      "standings": [
-        {"rank": "*1", "team": "Amish Rake Fight", "record": "6-7-0", "pf": "1264.08", "pa": "1202.92"},
-        {"rank": "*2", "team": "Fumblerooskis", "record": "8-5-0", "pf": "1287.06", "pa": "1081.42"},
-        {"rank": "*3", "team": "MYBITCHES", "record": "7-6-0", "pf": "1407.78", "pa": "1252.00"},
-        {"rank": "*4", "team": "Lineman Rule", "record": "9-4-0", "pf": "1248.94", "pa": "1083.04"},
-        {"rank": "*5", "team": "MexiCAN Gnomes", "record": "7-6-0", "pf": "1068.40", "pa": "1018.78"},
-        {"rank": "*6", "team": "Hahahahahahaha's", "record": "11-2-0", "pf": "1368.08", "pa": "1107.94"},
-        {"rank": "*7", "team": "Straight Cash Homiez", "record": "7-6-0", "pf": "1223.36", "pa": "1189.28"},
-        {"rank": "*8", "team": "DocBallerPHDs", "record": "8-5-0", "pf": "1193.78", "pa": "1095.30"}
-      ]
-    },
-    "2016": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "8-5-0", "pf": "1385.62", "pa": "1163.58"},
-        {"rank": "*2", "team": "Hahahahahahaha's", "record": "7-6-0", "pf": "1187.62", "pa": "1141.66"},
-        {"rank": "*3", "team": "MYBITCHES", "record": "7-6-0", "pf": "1374.80", "pa": "1253.08"},
-        {"rank": "*4", "team": "The Majdic", "record": "7-6-0", "pf": "1308.82", "pa": "1214.62"},
-        {"rank": "*5", "team": "Straight Cash Homiez", "record": "8-5-0", "pf": "1260.10", "pa": "1165.38"},
-        {"rank": "*6", "team": "MexiCAN gnomes", "record": "7-6-0", "pf": "1333.42", "pa": "1275.02"},
-        {"rank": "*7", "team": "Fumblerooskis", "record": "10-3-0", "pf": "1524.52", "pa": "1180.88"},
-        {"rank": "*8", "team": "Lineman Rule", "record": "9-4-0", "pf": "1412.36", "pa": "1180.60"}
-      ]
-    },
-    "2015": {
-      "champion": "The Majdic",
-      "standings": [
-        {"rank": "*1", "team": "The Majdic", "record": "8-5-0", "pf": "1448.22", "pa": "1140.48"},
-        {"rank": "*2", "team": "Lineman Rule", "record": "9-4-0", "pf": "1584.56", "pa": "1126.42"},
-        {"rank": "*3", "team": "fumblerooskis", "record": "10-3-0", "pf": "1479.88", "pa": "1222.90"},
-        {"rank": "*4", "team": "Straight Cash Homiez", "record": "7-6-0", "pf": "1300.42", "pa": "1265.34"},
-        {"rank": "*5", "team": "The Practice Blows", "record": "7-6-0", "pf": "1330.56", "pa": "1184.80"},
-        {"rank": "*6", "team": "MexiCAN gnomes", "record": "10-3-0", "pf": "1323.82", "pa": "1156.10"},
-        {"rank": "*7", "team": "The DocAugusti", "record": "7-6-0", "pf": "1325.46", "pa": "1225.40"},
-        {"rank": "*8", "team": "Little Strong Women", "record": "7-6-0", "pf": "1182.78", "pa": "1150.98"}
-      ]
-    },
-    "2014": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "9-4-0", "pf": "1256.50", "pa": "1233.86"},
-        {"rank": "*2", "team": "Lineman Rule", "record": "9-4-0", "pf": "1480.82", "pa": "1194.20"},
-        {"rank": "*3", "team": "fumblerooskis", "record": "9-4-0", "pf": "1447.50", "pa": "1235.84"},
-        {"rank": "*4", "team": "The Majdic", "record": "8-5-0", "pf": "1278.72", "pa": "1108.48"},
-        {"rank": "*5", "team": "Little Strong Women", "record": "6-7-0", "pf": "1532.38", "pa": "1428.58"},
-        {"rank": "*6", "team": "Hahahahahahaha's", "record": "7-6-0", "pf": "1282.38", "pa": "1155.28"},
-        {"rank": "*7", "team": "Straight Cash Homiez", "record": "8-5-0", "pf": "1230.84", "pa": "1098.32"},
-        {"rank": "*8", "team": "The DocBallers", "record": "8-5-0", "pf": "1296.04", "pa": "1206.44"}
-      ]
-    },
-    "2013": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "10-3-0", "pf": "1743.60", "pa": "1280.68"},
-        {"rank": "*2", "team": "Little Strong Women", "record": "11-2-0", "pf": "1463.62", "pa": "1294.38"},
-        {"rank": "*3", "team": "Lineman Rule", "record": "11-2-0", "pf": "1374.88", "pa": "1104.88"},
-        {"rank": "*4", "team": "fumblerooskis", "record": "9-4-0", "pf": "1317.38", "pa": "1137.34"},
-        {"rank": "*5", "team": "MexiCAN gnomes", "record": "7-6-0", "pf": "1397.66", "pa": "1225.22"},
-        {"rank": "*6", "team": "Victorious Secret", "record": "8-5-0", "pf": "1330.58", "pa": "1075.96"},
-        {"rank": "*7", "team": "Hahahahahahaha's", "record": "7-6-0", "pf": "1305.82", "pa": "1158.62"},
-        {"rank": "*8", "team": "The DocBallers", "record": "6-7-0", "pf": "1321.28", "pa": "1269.78"}
-      ]
-    },
-    "2012": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "9-4-0", "pf": "1383.20", "pa": "1179.68"},
-        {"rank": "*2", "team": "Lineman Rule", "record": "8-5-0", "pf": "1306.46", "pa": "1223.62"},
-        {"rank": "*3", "team": "MexiCAN gnomes", "record": "9-4-0", "pf": "1472.44", "pa": "1216.12"},
-        {"rank": "*4", "team": "Little Strong Women", "record": "10-3-0", "pf": "1523.72", "pa": "1160.44"},
-        {"rank": "*5", "team": "Straight Cash Homiez", "record": "6-7-0", "pf": "1349.34", "pa": "1256.96"},
-        {"rank": "*6", "team": "Hahahahahahaha's", "record": "7-6-0", "pf": "1320.14", "pa": "1239.24"},
-        {"rank": "*7", "team": "Victorious Secret", "record": "8-5-0", "pf": "1363.72", "pa": "1220.38"},
-        {"rank": "*8", "team": "TeAm MaJdRiD", "record": "9-4-0", "pf": "1402.74", "pa": "1240.24"}
-      ]
-    },
-    "2011": {
-      "champion": "Hahahahahahaha's",
-      "standings": [
-        {"rank": "*1", "team": "Hahahahaha's", "record": "9-4-0", "pf": "1472.38", "pa": "1178.30"},
-        {"rank": "*2", "team": "Mighty Hamsters", "record": "11-2-0", "pf": "1464.18", "pa": "1140.22"},
-        {"rank": "*3", "team": "fumblerooskis", "record": "7-6-0", "pf": "1400.78", "pa": "1209.88"},
-        {"rank": "*4", "team": "Amish Rake Fight", "record": "8-5-0", "pf": "1326.08", "pa": "1160.54"},
-        {"rank": "*5", "team": "Lineman Rule", "record": "7-6-0", "pf": "1372.86", "pa": "1298.88"},
-        {"rank": "*6", "team": "MexiCAN gnomes", "record": "7-6-0", "pf": "1231.16", "pa": "1174.34"},
-        {"rank": "*7", "team": "Augusti", "record": "7-6-0", "pf": "1491.36", "pa": "1285.26"},
-        {"rank": "*8", "team": "Prolly-Finishin-Last", "record": "9-4-0", "pf": "1351.16", "pa": "1154.50"}
-      ]
-    },
-    "2010": {
-      "champion": "MYBITCHES",
-      "standings": [
-        {"rank": "*1", "team": "MYBITCHES", "record": "7-6-0", "pf": "1292.44", "pa": "1338.84"},
-        {"rank": "*2", "team": "Prolly-Finishin-Last", "record": "11-2-0", "pf": "1403.72", "pa": "1230.54"},
-        {"rank": "*3", "team": "MexiCAN gnomes", "record": "6-7-0", "pf": "1301.32", "pa": "1303.22"},
-        {"rank": "*4", "team": "Mighty Hamsters", "record": "8-5-0", "pf": "1415.56", "pa": "1237.82"},
-        {"rank": "*5", "team": "Sloppy Joes", "record": "8-5-0", "pf": "1425.02", "pa": "1404.48"},
-        {"rank": "*6", "team": "TeAm MaJdRiD", "record": "8-5-0", "pf": "1438.58", "pa": "1232.44"},
-        {"rank": "*7", "team": "Little Strong Women", "record": "5-8-0", "pf": "1332.50", "pa": "1271.92"},
-        {"rank": "*8", "team": "Lineman Rule", "record": "10-3-0", "pf": "1452.16", "pa": "1278.38"}
-      ]
-    },
-    "2009": {
-      "champion": "Lineman Rule",
-      "standings": [
-        {"rank": "*1", "team": "Lineman Rule", "record": "10-3-0", "pf": "1392.82", "pa": "1146.18"},
-        {"rank": "*2", "team": "TeAm mAjDiC", "record": "10-3-0", "pf": "1354.74", "pa": "1104.20"},
-        {"rank": "*3", "team": "Mighty Hamsters", "record": "8-5-0", "pf": "1260.96", "pa": "1211.44"},
-        {"rank": "*4", "team": "Amish Rake Fight", "record": "8-5-0", "pf": "1177.36", "pa": "1167.44"},
-        {"rank": "*5", "team": "MYBITCHES", "record": "7-6-0", "pf": "1206.30", "pa": "1216.38"},
-        {"rank": "*6", "team": "Acrophilia", "record": "7-6-0", "pf": "1165.98", "pa": "1205.90"},
-        {"rank": "*7", "team": "MexiCAN gnomes", "record": "5-8-0", "pf": "1247.38", "pa": "1170.28"},
-        {"rank": "*8", "team": "HottBlooded", "record": "7-6-0", "pf": "1183.68", "pa": "1221.20"}
-      ]
-    },
-    "2008": {
-      "champion": "Team Majdic",
-      "standings": [
-        {"rank": "*1", "team": "Team Majdic", "record": "8-5-0", "pf": "1247.52", "pa": "1052.42"},
-        {"rank": "*2", "team": "Amish Rake Fight", "record": "8-5-0", "pf": "1210.10", "pa": "1046.52"},
-        {"rank": "*3", "team": "Mighty Hamsters", "record": "7-6-0", "pf": "1298.06", "pa": "1113.46"},
-        {"rank": "*4", "team": "Lineman Rule", "record": "8-5-0", "pf": "1187.56", "pa": "1026.84"},
-        {"rank": "*5", "team": "Ballers", "record": "6-7-0", "pf": "1140.24", "pa": "1261.72"},
-        {"rank": "*6", "team": "MYBITCHES", "record": "8-5-0", "pf": "1206.02", "pa": "1212.44"},
-        {"rank": "*7", "team": "Mexican Gnomes", "record": "8-5-0", "pf": "1002.34", "pa": "1053.38"},
-        {"rank": "*8", "team": "Little Strong Women", "record": "7-6-0", "pf": "1152.84", "pa": "1143.04"}
-      ]
-    },
-    "2007": {
-      "champion": "Mighty Hamsters",
-      "standings": [
-        {"rank": "*1", "team": "Mighty Hamsters", "record": "6-7-0", "pf": "851", "pa": "866"},
-        {"rank": "*2", "team": "MaJdIC MeN", "record": "9-4-0", "pf": "1073", "pa": "931"},
-        {"rank": "*3", "team": "MexiCAN Gnomes", "record": "7-6-0", "pf": "973", "pa": "941"},
-        {"rank": "*4", "team": "Little Strong Women", "record": "8-5-0", "pf": "890", "pa": "865"},
-        {"rank": "*5", "team": "The Gorillas", "record": "8-5-0", "pf": "1037", "pa": "900"},
-        {"rank": "*6", "team": "Tritons", "record": "5-8-0", "pf": "947", "pa": "972"},
-        {"rank": "*7", "team": "MYBITCHES", "record": "8-5-0", "pf": "949", "pa": "885"},
-        {"rank": "*8", "team": "Amish Rake Fight", "record": "8-5-0", "pf": "849", "pa": "788"}
-      ]
-    },
-    "2006": {
-      "champion": "Lineman Rule",
-      "standings": [
-        {"rank": "*1", "team": "Lineman Rule", "record": "7-6-0", "pf": "923", "pa": "947"},
-        {"rank": "*2", "team": "DawgSoldiers", "record": "8-5-0", "pf": "937", "pa": "861"},
-        {"rank": "*3", "team": "TEAM Majdic", "record": "8-5-0", "pf": "982", "pa": "864"},
-        {"rank": "*4", "team": "Exactly", "record": "10-3-0", "pf": "1038", "pa": "907"},
-        {"rank": "*5", "team": "MexiCAN(t) Gnomes", "record": "8-5-0", "pf": "840", "pa": "852"},
-        {"rank": "*6", "team": "Little Strong Women", "record": "7-5-1", "pf": "1094", "pa": "916"},
-        {"rank": "*7", "team": "MYBITCHES", "record": "8-5-0", "pf": "990", "pa": "850"},
-        {"rank": "*8", "team": "Mighty Hamsters", "record": "6-6-1", "pf": "911", "pa": "921"}
+        {
+          "rank": 1,
+          "team": "Quint Connection",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 1,
+          "winPct": 0.607,
+          "pointsFor": 982,
+          "pointsAgainst": 888,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 2,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 911,
+          "pointsAgainst": 787,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 3,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 12,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.857,
+          "pointsFor": 1105,
+          "pointsAgainst": 846,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 4,
+          "team": "Rivers/Schweiger '05",
+          "manager": "Brad Head",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 883,
+          "pointsAgainst": 901,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 5,
+          "team": "Toothpick's Angels",
+          "manager": "Niko W",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 851,
+          "pointsAgainst": 911,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 6,
+          "team": "The Tritons",
+          "manager": "jacob colman",
+          "wins": 9,
+          "losses": 3,
+          "ties": 2,
+          "winPct": 0.714,
+          "pointsFor": 949,
+          "pointsAgainst": 841,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 7,
+          "team": "Alvin& the Chipmunks",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 884,
+          "pointsAgainst": 953,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 8,
+          "team": "bigaycoons",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1052,
+          "pointsAgainst": 1056,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 9,
+          "team": "BRAD LICKS HIS PUBES",
+          "manager": "Unknown",
+          "wins": 3,
+          "losses": 10,
+          "ties": 1,
+          "winPct": 0.25,
+          "pointsFor": 782,
+          "pointsAgainst": 1010
+        },
+        {
+          "rank": 10,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.214,
+          "pointsFor": 815,
+          "pointsAgainst": 1021
+        }
       ]
     },
     "2005": {
-      "champion": "Linemen Rule",
+      "leagueKey": "124.l.50966",
+      "leagueName": "theezleague",
+      "numTeams": 12,
+      "champion": {
+        "team": "Linemen Rule",
+        "manager": "Daniel F"
+      },
       "standings": [
-        {"rank": "*1", "team": "Linemen Rule", "record": "6-7-1", "pf": "759", "pa": "832"},
-        {"rank": "*2", "team": "Little Strong Women", "record": "7-7-0", "pf": "849", "pa": "928"},
-        {"rank": "*3", "team": "HAHAHAHAHA's", "record": "7-7-0", "pf": "884", "pa": "903"},
-        {"rank": "*4", "team": "HungryHungryHobos", "record": "8-5-1", "pf": "945", "pa": "836"},
-        {"rank": "*5", "team": "The Mermen", "record": "8-6-0", "pf": "992", "pa": "827"},
-        {"rank": "*6", "team": "Toothpick's Angels", "record": "8-6-0", "pf": "837", "pa": "807"},
-        {"rank": "*7", "team": "MexiCAN Gnomes", "record": "9-4-1", "pf": "912", "pa": "840"},
-        {"rank": "*8", "team": "Amish Rake Fight", "record": "7-7-0", "pf": "845", "pa": "806"}
+        {
+          "rank": 1,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 6,
+          "losses": 7,
+          "ties": 1,
+          "winPct": 0.464,
+          "pointsFor": 759,
+          "pointsAgainst": 832,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 2,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 849,
+          "pointsAgainst": 928,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 3,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 884,
+          "pointsAgainst": 903,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 4,
+          "team": "HungryHungryHobos",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 1,
+          "winPct": 0.607,
+          "pointsFor": 945,
+          "pointsAgainst": 836,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 5,
+          "team": "The Mermen",
+          "manager": "Tim Watson",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 992,
+          "pointsAgainst": 827,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 6,
+          "team": "Toothpick's Angels",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 837,
+          "pointsAgainst": 807,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 7,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 9,
+          "losses": 4,
+          "ties": 1,
+          "winPct": 0.679,
+          "pointsFor": 912,
+          "pointsAgainst": 840,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 8,
+          "team": "Amish Rake Fight",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 845,
+          "pointsAgainst": 806,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 9,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 5,
+          "losses": 7,
+          "ties": 2,
+          "winPct": 0.429,
+          "pointsFor": 852,
+          "pointsAgainst": 866
+        },
+        {
+          "rank": 10,
+          "team": "One Time Donnies",
+          "manager": "Nima",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 780,
+          "pointsAgainst": 868
+        },
+        {
+          "rank": 11,
+          "team": "the TRITONS",
+          "manager": "jacob colman",
+          "wins": 5,
+          "losses": 8,
+          "ties": 1,
+          "winPct": 0.393,
+          "pointsFor": 775,
+          "pointsAgainst": 844
+        },
+        {
+          "rank": 12,
+          "team": "Quint Connection",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 735,
+          "pointsAgainst": 808
+        }
       ]
     },
-    "2004": {
-      "champion": "Quint Connection",
+    "2006": {
+      "leagueKey": null,
+      "leagueName": "The EZ League",
+      "numTeams": 8,
+      "champion": {
+        "team": "Lineman Rule",
+        "manager": "Daniel F"
+      },
       "standings": [
-        {"rank": "*1", "team": "Quint Connection", "record": "8-5-1", "pf": "982", "pa": "888"},
-        {"rank": "*2", "team": "Linemen Rule", "record": "8-6-0", "pf": "911", "pa": "787"},
-        {"rank": "*3", "team": "Little Strong Women", "record": "12-2-0", "pf": "1105", "pa": "846"},
-        {"rank": "*4", "team": "Rivers/Schweiger '05", "record": "6-8-0", "pf": "883", "pa": "901"},
-        {"rank": "*5", "team": "Toothpick's Angels", "record": "8-6-0", "pf": "851", "pa": "911"},
-        {"rank": "*6", "team": "The Tritons", "record": "9-3-2", "pf": "949", "pa": "841"},
-        {"rank": "*7", "team": "Alvin& the Chipmunks", "record": "5-9-0", "pf": "884", "pa": "953"},
-        {"rank": "*8", "team": "bigaycoons", "record": "6-8-0", "pf": "1052", "pa": "1056"}
+        {
+          "rank": 1,
+          "team": "Lineman Rule",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 923.0,
+          "pointsAgainst": 947.0,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 2,
+          "team": "DawgSoldiers",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 937.0,
+          "pointsAgainst": 861.0,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 3,
+          "team": "The Majdic",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 982.0,
+          "pointsAgainst": 864.0,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 4,
+          "team": "Exactly",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1038.0,
+          "pointsAgainst": 907.0,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "MexiCAN Gnomes",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 840.0,
+          "pointsAgainst": 852.0,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 6,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 5,
+          "ties": 1,
+          "winPct": 0.577,
+          "pointsFor": 1094.0,
+          "pointsAgainst": 916.0,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 7,
+          "team": "MYBITCHES",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 990.0,
+          "pointsAgainst": 850.0,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 8,
+          "team": "Mighty Hamsters",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "winPct": 0.5,
+          "pointsFor": 911.0,
+          "pointsAgainst": 921.0,
+          "playoffSeed": 8
+        }
+      ]
+    },
+    "2007": {
+      "leagueKey": "175.l.42561",
+      "leagueName": "theezleague",
+      "numTeams": 12,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "T"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 851,
+          "pointsAgainst": 866,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 2,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1073,
+          "pointsAgainst": 931,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 3,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 973,
+          "pointsAgainst": 941,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 4,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 890,
+          "pointsAgainst": 865,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "The Gorillas",
+          "manager": "Doc",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1037,
+          "pointsAgainst": 900,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 6,
+          "team": "Tritons",
+          "manager": "jacob colman",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 947,
+          "pointsAgainst": 972,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 7,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 949,
+          "pointsAgainst": 885,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 8,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 849,
+          "pointsAgainst": 788,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 9,
+          "team": "Soulja Boys",
+          "manager": "Niko W",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 846,
+          "pointsAgainst": 894
+        },
+        {
+          "rank": 10,
+          "team": "The Cosmonauties",
+          "manager": "job",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 826,
+          "pointsAgainst": 920
+        },
+        {
+          "rank": 11,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 822,
+          "pointsAgainst": 911
+        },
+        {
+          "rank": 12,
+          "team": "stepoffthescaleson",
+          "manager": "Unknown",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 763,
+          "pointsAgainst": 953
+        }
+      ]
+    },
+    "2008": {
+      "leagueKey": "199.l.76629",
+      "leagueName": "theezleague",
+      "numTeams": 12,
+      "champion": {
+        "team": "Team Majdic",
+        "manager": "Nima"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1247.52,
+          "pointsAgainst": 1052.4199999999998,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 2,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1210.1,
+          "pointsAgainst": 1046.52,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 3,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1298.06,
+          "pointsAgainst": 1113.46,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 4,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1187.56,
+          "pointsAgainst": 1026.8400000000001,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "Ballers",
+          "manager": "Doc",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1140.24,
+          "pointsAgainst": 1261.72,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 6,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1206.02,
+          "pointsAgainst": 1212.44,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 7,
+          "team": "Mexican Gnomes",
+          "manager": "Brad Head",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1002.34,
+          "pointsAgainst": 1053.38,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 8,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1152.84,
+          "pointsAgainst": 1143.04,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 9,
+          "team": "Toothpick's Angels",
+          "manager": "Niko W",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1084.9,
+          "pointsAgainst": 1085.5199999999998
+        },
+        {
+          "rank": 10,
+          "team": "Projected Winners",
+          "manager": "job",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1037.94,
+          "pointsAgainst": 1178.84
+        },
+        {
+          "rank": 11,
+          "team": "TRITONS",
+          "manager": "jacob colman",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1056.82,
+          "pointsAgainst": 1212.68
+        },
+        {
+          "rank": 12,
+          "team": "stillwaitingonbenson",
+          "manager": "Unknown",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 920.6,
+          "pointsAgainst": 1158.0800000000002
+        }
+      ]
+    },
+    "2009": {
+      "leagueKey": "222.l.427287",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "Lineman Rule",
+        "manager": "Daniel F"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1392.82,
+          "pointsAgainst": 1146.18,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 2,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1354.74,
+          "pointsAgainst": 1104.2,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 3,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1260.96,
+          "pointsAgainst": 1211.4399999999998,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 4,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1177.36,
+          "pointsAgainst": 1167.4399999999998,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1206.3,
+          "pointsAgainst": 1216.38,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 6,
+          "team": "Acrophilia",
+          "manager": "job",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1165.98,
+          "pointsAgainst": 1205.9,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 7,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1247.38,
+          "pointsAgainst": 1170.2800000000002,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 8,
+          "team": "HottBlooded",
+          "manager": "Doc",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1183.68,
+          "pointsAgainst": 1221.2,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 9,
+          "team": "The Penis Mightier",
+          "manager": "jacob colman",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1219.6,
+          "pointsAgainst": 1319.7799999999997
+        },
+        {
+          "rank": 10,
+          "team": "Toothpick's Angels",
+          "manager": "Niko W",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1047.76,
+          "pointsAgainst": 1097.04
+        },
+        {
+          "rank": 11,
+          "team": "PhiladelphiaBeagles",
+          "manager": "Unknown",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 986.54,
+          "pointsAgainst": 1288.2799999999997
+        },
+        {
+          "rank": 12,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1153.26,
+          "pointsAgainst": 1248.2599999999998
+        }
+      ]
+    },
+    "2010": {
+      "leagueKey": "242.l.310338",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "MYBITCHES",
+        "manager": "AustinB"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1292.44,
+          "pointsAgainst": 1338.8400000000001,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 2,
+          "team": "Prolly-Finishin-Last",
+          "manager": "jacob colman",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1403.72,
+          "pointsAgainst": 1230.54,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 3,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1301.32,
+          "pointsAgainst": 1303.2200000000003,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 4,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1415.56,
+          "pointsAgainst": 1237.82,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 5,
+          "team": "Sloppy Joes",
+          "manager": "job",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1425.02,
+          "pointsAgainst": 1404.48,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 6,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1438.58,
+          "pointsAgainst": 1232.4399999999998,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 7,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1332.5,
+          "pointsAgainst": 1271.92,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 8,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1452.16,
+          "pointsAgainst": 1278.3799999999997,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 9,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1291,
+          "pointsAgainst": 1386.74
+        },
+        {
+          "rank": 10,
+          "team": "AhShit...",
+          "manager": "Doc",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1183.96,
+          "pointsAgainst": 1242.7200000000003
+        },
+        {
+          "rank": 11,
+          "team": "Toothpick's Angels",
+          "manager": "Niko W",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1143.86,
+          "pointsAgainst": 1437.1
+        },
+        {
+          "rank": 12,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.154,
+          "pointsFor": 968.96,
+          "pointsAgainst": 1284.88
+        }
+      ]
+    },
+    "2011": {
+      "leagueKey": "257.l.506061",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Hahahahaha's",
+        "manager": "job"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1472.38,
+          "pointsAgainst": 1178.3000000000002,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 2,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1464.18,
+          "pointsAgainst": 1140.2200000000003,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 3,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1400.78,
+          "pointsAgainst": 1209.88,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 4,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1326.08,
+          "pointsAgainst": 1160.5400000000002,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1372.86,
+          "pointsAgainst": 1298.88,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 6,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1231.16,
+          "pointsAgainst": 1174.3400000000001,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 7,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1491.36,
+          "pointsAgainst": 1285.26,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 8,
+          "team": "Prolly-Finishin-Last",
+          "manager": "jacob colman",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1351.16,
+          "pointsAgainst": 1154.5,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 9,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1319.08,
+          "pointsAgainst": 1199.22
+        },
+        {
+          "rank": 10,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1289.2,
+          "pointsAgainst": 1309.5
+        },
+        {
+          "rank": 11,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1240.78,
+          "pointsAgainst": 1229.9599999999998
+        },
+        {
+          "rank": 12,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1124.28,
+          "pointsAgainst": 1287.06
+        },
+        {
+          "rank": 13,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1082.94,
+          "pointsAgainst": 1306.1000000000001
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLOL's",
+          "manager": "Unknown",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 8.18,
+          "pointsAgainst": 1240.6599999999996
+        }
+      ]
+    },
+    "2012": {
+      "leagueKey": "273.l.315141",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1383.2,
+          "pointsAgainst": 1179.68,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 2,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1306.46,
+          "pointsAgainst": 1223.6200000000001,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 3,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1472.44,
+          "pointsAgainst": 1216.1200000000001,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1523.72,
+          "pointsAgainst": 1160.44,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 5,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1349.34,
+          "pointsAgainst": 1256.9599999999998,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 6,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1320.14,
+          "pointsAgainst": 1239.24,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 7,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1363.72,
+          "pointsAgainst": 1220.3799999999999,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 8,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1402.74,
+          "pointsAgainst": 1240.24,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 9,
+          "team": "The Screaming Vegans",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1250.1,
+          "pointsAgainst": 1149.5
+        },
+        {
+          "rank": 10,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1204.36,
+          "pointsAgainst": 1204.3
+        },
+        {
+          "rank": 11,
+          "team": "Touchdown Syndrome",
+          "manager": "Yoseph",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1209.44,
+          "pointsAgainst": 1277.7000000000003
+        },
+        {
+          "rank": 12,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1224.3,
+          "pointsAgainst": 1239.8
+        },
+        {
+          "rank": 13,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1188.2,
+          "pointsAgainst": 1236.4400000000003
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLOL's",
+          "manager": "Unknown",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1353.74
+        }
+      ]
+    },
+    "2013": {
+      "leagueKey": "314.l.178041",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1743.6,
+          "pointsAgainst": 1280.68,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 2,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1463.62,
+          "pointsAgainst": 1294.38,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 3,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1374.88,
+          "pointsAgainst": 1104.88,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1317.38,
+          "pointsAgainst": 1137.34,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1397.66,
+          "pointsAgainst": 1225.2200000000003,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 6,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1330.58,
+          "pointsAgainst": 1075.96,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 7,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1305.82,
+          "pointsAgainst": 1158.6200000000001,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 8,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1321.28,
+          "pointsAgainst": 1269.78,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 9,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1262.74,
+          "pointsAgainst": 1152.1
+        },
+        {
+          "rank": 10,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1262.48,
+          "pointsAgainst": 1155.36
+        },
+        {
+          "rank": 11,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1151.72,
+          "pointsAgainst": 1385.6200000000001
+        },
+        {
+          "rank": 12,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1201.8,
+          "pointsAgainst": 1368.06
+        },
+        {
+          "rank": 13,
+          "team": "Toothpick's Angels",
+          "manager": "Niko W",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1128.62,
+          "pointsAgainst": 1282.94
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "Unknown",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1371.24
+        }
+      ]
+    },
+    "2014": {
+      "leagueKey": "331.l.497690",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1256.5,
+          "pointsAgainst": 1233.8600000000001,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 2,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1480.82,
+          "pointsAgainst": 1194.2000000000003,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 3,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1447.5,
+          "pointsAgainst": 1235.84,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1278.72,
+          "pointsAgainst": 1108.48,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 5,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1532.38,
+          "pointsAgainst": 1428.5800000000002,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 6,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1282.38,
+          "pointsAgainst": 1155.2799999999997,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 7,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1230.84,
+          "pointsAgainst": 1098.3200000000002,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 8,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1296.04,
+          "pointsAgainst": 1206.44,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 9,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1311.46,
+          "pointsAgainst": 1233.4
+        },
+        {
+          "rank": 10,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1305.94,
+          "pointsAgainst": 1230.06
+        },
+        {
+          "rank": 11,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1253.7,
+          "pointsAgainst": 1279.6
+        },
+        {
+          "rank": 12,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1297.56,
+          "pointsAgainst": 1296.1000000000004
+        },
+        {
+          "rank": 13,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1150.98,
+          "pointsAgainst": 1309.18
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "Unknown",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1115.48
+        }
+      ]
+    },
+    "2015": {
+      "leagueKey": "348.l.453088",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "The Majdic",
+        "manager": "Nima"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1448.22,
+          "pointsAgainst": 1140.4800000000002,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 2,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1584.56,
+          "pointsAgainst": 1126.42,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 3,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1479.88,
+          "pointsAgainst": 1222.9,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 4,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1300.42,
+          "pointsAgainst": 1265.34,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 5,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1330.56,
+          "pointsAgainst": 1184.8000000000002,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 6,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1323.82,
+          "pointsAgainst": 1156.1,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 7,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1325.46,
+          "pointsAgainst": 1225.4,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 8,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1182.78,
+          "pointsAgainst": 1150.98,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 9,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1285.84,
+          "pointsAgainst": 1265.92
+        },
+        {
+          "rank": 10,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1277.4,
+          "pointsAgainst": 1220.14
+        },
+        {
+          "rank": 11,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1269.44,
+          "pointsAgainst": 1262.2
+        },
+        {
+          "rank": 12,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1223.26,
+          "pointsAgainst": 1256.52
+        },
+        {
+          "rank": 13,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1113.48,
+          "pointsAgainst": 1298.88
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1369.04
+        }
+      ]
+    },
+    "2016": {
+      "leagueKey": "359.l.514506",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1385.62,
+          "pointsAgainst": 1163.5800000000002,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 2,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1187.62,
+          "pointsAgainst": 1141.66,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 3,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1374.8,
+          "pointsAgainst": 1253.0800000000002,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 4,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1308.82,
+          "pointsAgainst": 1214.62,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 5,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1260.1,
+          "pointsAgainst": 1165.38,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 6,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1333.42,
+          "pointsAgainst": 1275.02,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 7,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1524.52,
+          "pointsAgainst": 1180.8799999999999,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 8,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1412.36,
+          "pointsAgainst": 1180.6,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 9,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1432.28,
+          "pointsAgainst": 1328.1
+        },
+        {
+          "rank": 10,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1164.2,
+          "pointsAgainst": 1193.54
+        },
+        {
+          "rank": 11,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1134.68,
+          "pointsAgainst": 1247.26
+        },
+        {
+          "rank": 12,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1354.62,
+          "pointsAgainst": 1288.96
+        },
+        {
+          "rank": 13,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1239.12,
+          "pointsAgainst": 1223.7199999999998
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1255.76
+        }
+      ]
+    },
+    "2017": {
+      "leagueKey": "371.l.208478",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Amish Rake Fight",
+        "manager": "Yoseph"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1264.08,
+          "pointsAgainst": 1202.92,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 2,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1287.06,
+          "pointsAgainst": 1081.42,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 3,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1407.78,
+          "pointsAgainst": 1252,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 4,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1248.94,
+          "pointsAgainst": 1083.04,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 5,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1068.4,
+          "pointsAgainst": 1018.78,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 6,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1368.08,
+          "pointsAgainst": 1107.9399999999998,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 7,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1223.36,
+          "pointsAgainst": 1189.2800000000002,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 8,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1193.78,
+          "pointsAgainst": 1095.3000000000002,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 9,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1257.22,
+          "pointsAgainst": 1193.64
+        },
+        {
+          "rank": 10,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1255.58,
+          "pointsAgainst": 1310.2399999999998
+        },
+        {
+          "rank": 11,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1221.66,
+          "pointsAgainst": 1159.1399999999999
+        },
+        {
+          "rank": 12,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1008.76,
+          "pointsAgainst": 1102.28
+        },
+        {
+          "rank": 13,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1241.98,
+          "pointsAgainst": 1175.4000000000003
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.154,
+          "pointsFor": 2,
+          "pointsAgainst": 1077.3000000000002
+        }
+      ]
+    },
+    "2018": {
+      "leagueKey": "380.l.1009856",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1427.08,
+          "pointsAgainst": 1188.3400000000001,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 2,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1434.16,
+          "pointsAgainst": 1245.3400000000001,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 3,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1516.32,
+          "pointsAgainst": 1216.8799999999999,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 4,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1368.42,
+          "pointsAgainst": 1337.6000000000001,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 5,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1454.14,
+          "pointsAgainst": 1267.1799999999998,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 6,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1273.52,
+          "pointsAgainst": 1127.42,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 7,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1426.88,
+          "pointsAgainst": 1285.8400000000001,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 8,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1619.36,
+          "pointsAgainst": 1264.38,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 9,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1357.44,
+          "pointsAgainst": 1343.7
+        },
+        {
+          "rank": 10,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1249.22,
+          "pointsAgainst": 1306.82
+        },
+        {
+          "rank": 11,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1260.92,
+          "pointsAgainst": 1236.8600000000001
+        },
+        {
+          "rank": 12,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.231,
+          "pointsFor": 1285.56,
+          "pointsAgainst": 1304.7799999999997
+        },
+        {
+          "rank": 13,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.154,
+          "pointsFor": 1140.16,
+          "pointsAgainst": 1421.7
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 18.2,
+          "pointsAgainst": 1284.54
+        }
+      ]
+    },
+    "2019": {
+      "leagueKey": "390.l.563870",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "The Majdic",
+        "manager": "Nima"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1371.48,
+          "pointsAgainst": 1268.9199999999998,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 2,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1522.92,
+          "pointsAgainst": 1177.06,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 3,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1248.46,
+          "pointsAgainst": 1138.0800000000002,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 4,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1479.62,
+          "pointsAgainst": 1191.68,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 5,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1423.38,
+          "pointsAgainst": 1256.44,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 6,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1362.42,
+          "pointsAgainst": 1310.16,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 7,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1360.46,
+          "pointsAgainst": 1165.98,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 8,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1200.78,
+          "pointsAgainst": 1215.42,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 9,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1266.44,
+          "pointsAgainst": 1269.7400000000002
+        },
+        {
+          "rank": 10,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1222.4,
+          "pointsAgainst": 1256.58
+        },
+        {
+          "rank": 11,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1286.02,
+          "pointsAgainst": 1334.28
+        },
+        {
+          "rank": 12,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1231.64,
+          "pointsAgainst": 1202.7
+        },
+        {
+          "rank": 13,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1313.3,
+          "pointsAgainst": 1186.2399999999998
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0,
+          "pointsAgainst": 1316.04
+        }
+      ]
+    },
+    "2020": {
+      "leagueKey": "399.l.818924",
+      "leagueName": "The EZ League",
+      "numTeams": 14,
+      "champion": {
+        "team": "The Majdic",
+        "manager": "Nima"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.846,
+          "pointsFor": 1441.38,
+          "pointsAgainst": 1231.02,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 2,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1410.44,
+          "pointsAgainst": 1259.24,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 3,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.769,
+          "pointsFor": 1426.3,
+          "pointsAgainst": 1197.84,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1295.2,
+          "pointsAgainst": 1236.3999999999999,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 5,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.692,
+          "pointsFor": 1254.8,
+          "pointsAgainst": 1138.8000000000002,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 6,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.615,
+          "pointsFor": 1348.64,
+          "pointsAgainst": 1194.0000000000002,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 7,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1288.82,
+          "pointsAgainst": 1322.02,
+          "playoffSeed": 10
+        },
+        {
+          "rank": 8,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1321.88,
+          "pointsAgainst": 1269.44,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 9,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1299.34,
+          "pointsAgainst": 1214.1,
+          "playoffSeed": 12
+        },
+        {
+          "rank": 10,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.538,
+          "pointsFor": 1367.54,
+          "pointsAgainst": 1191.96,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 11,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.462,
+          "pointsFor": 1317.12,
+          "pointsAgainst": 1245.04,
+          "playoffSeed": 9
+        },
+        {
+          "rank": 12,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.385,
+          "pointsFor": 1256.04,
+          "pointsAgainst": 1240.34,
+          "playoffSeed": 11
+        },
+        {
+          "rank": 13,
+          "team": "Amish Rake Fight",
+          "manager": "Yoseph",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.308,
+          "pointsFor": 1233.8,
+          "pointsAgainst": 1226.5400000000002
+        },
+        {
+          "rank": 14,
+          "team": "LOLOLOLOLOLs",
+          "manager": "EZ",
+          "wins": 0,
+          "losses": 13,
+          "ties": 0,
+          "winPct": 0,
+          "pointsFor": 0.5,
+          "pointsAgainst": 1295.0599999999997
+        }
+      ]
+    },
+    "2021": {
+      "leagueKey": "406.l.258578",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "Hahahahahahaha's",
+        "manager": "job"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1452.22,
+          "pointsAgainst": 1449.8400000000001,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 2,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.714,
+          "pointsFor": 1599.28,
+          "pointsAgainst": 1456.5200000000002,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 3,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1395.48,
+          "pointsAgainst": 1422.1000000000004,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 4,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.714,
+          "pointsFor": 1665.36,
+          "pointsAgainst": 1347.9599999999998,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 5,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1620.92,
+          "pointsAgainst": 1576.6599999999999,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 6,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1489,
+          "pointsAgainst": 1290.12,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 7,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1258.72,
+          "pointsAgainst": 1442.02,
+          "playoffSeed": 11
+        },
+        {
+          "rank": 8,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1442.62,
+          "pointsAgainst": 1522.3200000000002,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 9,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1365.9,
+          "pointsAgainst": 1396.32,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 10,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.214,
+          "pointsFor": 1356.94,
+          "pointsAgainst": 1510.36,
+          "playoffSeed": 12
+        },
+        {
+          "rank": 11,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1358.78,
+          "pointsAgainst": 1483.9199999999998,
+          "playoffSeed": 10
+        },
+        {
+          "rank": 12,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1364.2,
+          "pointsAgainst": 1471.28,
+          "playoffSeed": 9
+        }
+      ]
+    },
+    "2022": {
+      "leagueKey": "414.l.552010",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "MexiCAN Gnomes",
+        "manager": "Brad Head"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1515.3,
+          "pointsAgainst": 1399.3800000000006,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 2,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1469.02,
+          "pointsAgainst": 1437.22,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 3,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1555.94,
+          "pointsAgainst": 1394.08,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 12,
+          "losses": 2,
+          "ties": 0,
+          "winPct": 0.857,
+          "pointsFor": 1640.76,
+          "pointsAgainst": 1289.3799999999999,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 5,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1421.46,
+          "pointsAgainst": 1387.28,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 6,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1350.34,
+          "pointsAgainst": 1212.4000000000003,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 7,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1323.46,
+          "pointsAgainst": 1515.04,
+          "playoffSeed": 9
+        },
+        {
+          "rank": 8,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1438.18,
+          "pointsAgainst": 1469.8999999999999,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 9,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1299.14,
+          "pointsAgainst": 1418.7,
+          "playoffSeed": 11
+        },
+        {
+          "rank": 10,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1406.5,
+          "pointsAgainst": 1421.7800000000002,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 11,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1277.66,
+          "pointsAgainst": 1427.2399999999998,
+          "playoffSeed": 10
+        },
+        {
+          "rank": 12,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.214,
+          "pointsFor": 1242.08,
+          "pointsAgainst": 1567.44,
+          "playoffSeed": 12
+        }
+      ]
+    },
+    "2023": {
+      "leagueKey": "423.l.195452",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "Mighty Hamsters",
+        "manager": "John"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1491.48,
+          "pointsAgainst": 1360.54,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 2,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1511.32,
+          "pointsAgainst": 1418.84,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 3,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1353.72,
+          "pointsAgainst": 1198.4,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 4,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1606.36,
+          "pointsAgainst": 1475.5599999999997,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 5,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1360.76,
+          "pointsAgainst": 1414.3799999999999,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 6,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1490.82,
+          "pointsAgainst": 1411.5800000000002,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 7,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1360.84,
+          "pointsAgainst": 1559.26,
+          "playoffSeed": 10
+        },
+        {
+          "rank": 8,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "winPct": 0.286,
+          "pointsFor": 1393.98,
+          "pointsAgainst": 1461.7399999999998,
+          "playoffSeed": 12
+        },
+        {
+          "rank": 9,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1394.8,
+          "pointsAgainst": 1462.5600000000002,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 10,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1254.1,
+          "pointsAgainst": 1351.58,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 11,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1267.5,
+          "pointsAgainst": 1352.3799999999999,
+          "playoffSeed": 11
+        },
+        {
+          "rank": 12,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1366.8,
+          "pointsAgainst": 1385.66,
+          "playoffSeed": 9
+        }
+      ]
+    },
+    "2024": {
+      "leagueKey": "449.l.668900",
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "Fumblerooskis",
+        "manager": "-- hidden --"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1437.64,
+          "pointsAgainst": 1450.44,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 2,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1575.74,
+          "pointsAgainst": 1496.2,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 3,
+          "team": "Lineman Rule",
+          "manager": "Daniel F",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.714,
+          "pointsFor": 1514.14,
+          "pointsAgainst": 1349.32,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 4,
+          "team": "DocBallerPHDs",
+          "manager": "Doc",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "winPct": 0.786,
+          "pointsFor": 1550.84,
+          "pointsAgainst": 1346.6200000000001,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 5,
+          "team": "Victorious Secret",
+          "manager": "PFM",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1412.1,
+          "pointsAgainst": 1402.8000000000002,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 6,
+          "team": "MexiCAN Gnomes",
+          "manager": "Brad Head",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1437.44,
+          "pointsAgainst": 1448.7199999999998,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 7,
+          "team": "The Practice Blows",
+          "manager": "jacob colman",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1424.96,
+          "pointsAgainst": 1432.6,
+          "playoffSeed": 7
+        },
+        {
+          "rank": 8,
+          "team": "Hahahahahahaha's",
+          "manager": "job",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1378.76,
+          "pointsAgainst": 1421.9,
+          "playoffSeed": 9
+        },
+        {
+          "rank": 9,
+          "team": "Straight Cash Homiez",
+          "manager": "Niko W",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1422.84,
+          "pointsAgainst": 1418.1000000000001,
+          "playoffSeed": 8
+        },
+        {
+          "rank": 10,
+          "team": "The Majdic",
+          "manager": "Nima",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1384.62,
+          "pointsAgainst": 1469.3,
+          "playoffSeed": 10
+        },
+        {
+          "rank": 11,
+          "team": "MYBITCHES",
+          "manager": "AustinB",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.214,
+          "pointsFor": 1241.4,
+          "pointsAgainst": 1395.8,
+          "playoffSeed": 12
+        },
+        {
+          "rank": 12,
+          "team": "Mighty Hamsters",
+          "manager": "John",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "winPct": 0.214,
+          "pointsFor": 1269.26,
+          "pointsAgainst": 1417.9399999999998,
+          "playoffSeed": 11
+        }
+      ]
+    },
+    "2025": {
+      "leagueKey": null,
+      "leagueName": "The EZ League",
+      "numTeams": 12,
+      "champion": {
+        "team": "DocBallerPHDs",
+        "manager": "Doc"
+      },
+      "standings": [
+        {
+          "rank": 1,
+          "team": "DocBallerPHDs",
+          "manager": "Unknown",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "winPct": 0.714,
+          "pointsFor": 1625.3,
+          "pointsAgainst": 1440.78,
+          "playoffSeed": 1
+        },
+        {
+          "rank": 2,
+          "team": "The Practice Blows",
+          "manager": "Unknown",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1454.88,
+          "pointsAgainst": 1318.56,
+          "playoffSeed": 2
+        },
+        {
+          "rank": 3,
+          "team": "Little Strong Women",
+          "manager": "Unknown",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "winPct": 0.643,
+          "pointsFor": 1498.8,
+          "pointsAgainst": 1360.38,
+          "playoffSeed": 3
+        },
+        {
+          "rank": 4,
+          "team": "Fumblerooskis",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1474.92,
+          "pointsAgainst": 1402.14,
+          "playoffSeed": 4
+        },
+        {
+          "rank": 5,
+          "team": "Lineman Rule",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1525.96,
+          "pointsAgainst": 1429.88,
+          "playoffSeed": 5
+        },
+        {
+          "rank": 6,
+          "team": "Straight Cash Homiez",
+          "manager": "Unknown",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "winPct": 0.571,
+          "pointsFor": 1367.56,
+          "pointsAgainst": 1327.04,
+          "playoffSeed": 6
+        },
+        {
+          "rank": 7,
+          "team": "Mighty Hamsters",
+          "manager": "Unknown",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "winPct": 0.5,
+          "pointsFor": 1409.76,
+          "pointsAgainst": 1449.94
+        },
+        {
+          "rank": 8,
+          "team": "MYBITCHES",
+          "manager": "Unknown",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "winPct": 0.429,
+          "pointsFor": 1358.18,
+          "pointsAgainst": 1443.56
+        },
+        {
+          "rank": 9,
+          "team": "The Majdic",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1419.92,
+          "pointsAgainst": 1547.0
+        },
+        {
+          "rank": 10,
+          "team": "Hahahahahahaha's",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1336.38,
+          "pointsAgainst": 1534.14
+        },
+        {
+          "rank": 11,
+          "team": "MexiCAN Gnomes",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1331.48,
+          "pointsAgainst": 1430.98
+        },
+        {
+          "rank": 12,
+          "team": "Victorious Secret",
+          "manager": "Unknown",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "winPct": 0.357,
+          "pointsFor": 1312.86,
+          "pointsAgainst": 1433.84
+        }
       ]
     }
   }
