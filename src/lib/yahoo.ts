@@ -324,7 +324,9 @@ export async function getStandings(
   for (const teamData of Object.values(teams) as any[]) {
     if (typeof teamData === 'object' && teamData.team) {
       const team = teamData.team[0];
-      const teamStandings = teamData.team[1].team_standings;
+      // team_standings can be at index 1 or 2 depending on whether team_points is included
+      const teamStandings = teamData.team.find((t: any) => t.team_standings)?.team_standings;
+      if (!teamStandings) continue;
       const managers = team.find((t: any) => t.managers)?.managers;
       const managerNickname = managers?.[0]?.manager?.nickname || 'Unknown';
       
@@ -367,22 +369,31 @@ export async function getMatchups(
       for (const matchupData of Object.values(matchups) as any[]) {
         if (typeof matchupData === 'object' && matchupData.matchup) {
           const m = matchupData.matchup;
-          const teams = m[0].teams;
-          
-          const team1 = teams[0].team;
-          const team2 = teams[1].team;
-          
+          // Find the teams object within the matchup array
+          const teamsContainer = Array.isArray(m)
+            ? m.find((item: any) => item && item.teams)
+            : m;
+          if (!teamsContainer || !teamsContainer.teams) continue;
+          const teams = teamsContainer.teams;
+
+          const team1 = teams['0'].team;
+          const team2 = teams['1'].team;
+
+          // Extract team info - metadata is in team[0] array, points found via search
+          const team1Points = team1.find((t: any) => t.team_points)?.team_points;
+          const team2Points = team2.find((t: any) => t.team_points)?.team_points;
+
           allMatchups.push({
             week,
             team1_key: team1[0][0].team_key,
             team1_name: team1[0][2].name,
-            team1_points: parseFloat(team1[1].team_points.total),
+            team1_points: team1Points ? parseFloat(team1Points.total) : 0,
             team2_key: team2[0][0].team_key,
             team2_name: team2[0][2].name,
-            team2_points: parseFloat(team2[1].team_points.total),
-            winner_team_key: m.winner_team_key,
-            is_playoffs: m.is_playoffs === '1',
-            is_consolation: m.is_consolation === '1',
+            team2_points: team2Points ? parseFloat(team2Points.total) : 0,
+            winner_team_key: m.winner_team_key || teamsContainer.winner_team_key,
+            is_playoffs: (m.is_playoffs || teamsContainer.is_playoffs) === '1',
+            is_consolation: (m.is_consolation || teamsContainer.is_consolation) === '1',
           });
         }
       }
