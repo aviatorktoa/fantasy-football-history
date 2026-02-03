@@ -32,7 +32,7 @@ export function SeasonChart() {
   const [metric, setMetric] = useState<'rank' | 'wins' | 'points'>('rank');
   
   // Get all unique years
-  const years = [...new Set(seasonsData.map(s => s.league.season))].sort();
+  const years = Array.from(new Set(seasonsData.map(s => s.league.season))).sort();
   
   // Build chart data
   const chartData = years.map(year => {
