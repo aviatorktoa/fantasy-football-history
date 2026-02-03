@@ -511,7 +511,7 @@ export function calculateManagerStats(seasonsData: SeasonData[]): ManagerStats[]
   }
   
   // Calculate averages and percentages
-  for (const manager of managerMap.values()) {
+  for (const manager of Array.from(managerMap.values())) {
     const totalGames = manager.total_wins + manager.total_losses + manager.total_ties;
     manager.win_percentage = totalGames > 0 
       ? (manager.total_wins + manager.total_ties * 0.5) / totalGames 
