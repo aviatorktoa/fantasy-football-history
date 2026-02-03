@@ -26183,7 +26183,7 @@
           "position": "QB",
           "nflTeam": "Den",
           "winningBid": 16,
-          "winner": "Unknown",
+          "winner": "Victorious Secret",
           "date": "Oct 23",
           "otherBids": []
         },
@@ -26248,7 +26248,7 @@
           "position": "RB",
           "nflTeam": "Chi",
           "winningBid": 7,
-          "winner": "Unknown",
+          "winner": "MexiCAN Gnomes",
           "date": "Sep 25",
           "otherBids": [
             {
@@ -28054,8 +28054,11 @@
             "DJ Moore (Chi-WR)",
             "Xavier Worthy (KC-WR)"
           ],
-          "team2": "Unknown",
-          "team2Receives": []
+          "team2": "Little Strong Women",
+          "team2Receives": [
+            "Tyrone Tracy Jr. (NYG-RB)",
+            "Ricky Pearsall (SF-WR)"
+          ]
         },
         {
           "date": "Nov 23, 12:04 am",

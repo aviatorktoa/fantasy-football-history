@@ -7,21 +7,21 @@
     {
       "year": 2025,
       "champion": "DocBallerPHDs",
-      "manager": "Doc",
+      "manager": "Jackson \"Doc\" Marsteller",
       "runnerUp": "The Practice Blows",
       "third": "Little Strong Women"
     },
     {
       "year": 2024,
       "champion": "Fumblerooskis",
-      "manager": "Unknown",
+      "manager": "Andy Barnes",
       "runnerUp": "Little Strong Women",
       "third": "Lineman Rule"
     },
     {
       "year": 2023,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Fumblerooskis",
       "third": "MYBITCHES"
     },
@@ -35,146 +35,146 @@
     {
       "year": 2021,
       "champion": "Hahahahahahaha's",
-      "manager": "job",
+      "manager": "Joe Cioffi",
       "runnerUp": "Victorious Secret",
       "third": "Fumblerooskis"
     },
     {
       "year": 2020,
       "champion": "The Majdic",
-      "manager": "Nima",
+      "manager": "Nima Majd",
       "runnerUp": "Lineman Rule",
       "third": "Victorious Secret"
     },
     {
       "year": 2019,
       "champion": "The Majdic",
-      "manager": "Nima",
+      "manager": "Nima Majd",
       "runnerUp": "DocBallerPHDs",
       "third": "MexiCAN Gnomes"
     },
     {
       "year": 2018,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Straight Cash Homiez",
       "third": "MexiCAN Gnomes"
     },
     {
       "year": 2017,
       "champion": "Amish Rake Fight",
-      "manager": "Yoseph",
+      "manager": "Yoseph Kram",
       "runnerUp": "Fumblerooskis",
       "third": "MYBITCHES"
     },
     {
       "year": 2016,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Hahahahahahaha's",
       "third": "MYBITCHES"
     },
     {
       "year": 2015,
       "champion": "The Majdic",
-      "manager": "Nima",
+      "manager": "Nima Majd",
       "runnerUp": "Lineman Rule",
       "third": "Fumblerooskis"
     },
     {
       "year": 2014,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Lineman Rule",
       "third": "Fumblerooskis"
     },
     {
       "year": 2013,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Little Strong Women",
       "third": "Lineman Rule"
     },
     {
       "year": 2012,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "Lineman Rule",
       "third": "MexiCAN Gnomes"
     },
     {
       "year": 2011,
       "champion": "Hahahahahahaha's",
-      "manager": "job",
+      "manager": "Joe Cioffi",
       "runnerUp": "Mighty Hamsters",
       "third": "Fumblerooskis"
     },
     {
       "year": 2010,
       "champion": "MYBITCHES",
-      "manager": "AustinB",
+      "manager": "Austin Browning",
       "runnerUp": "Prolly-Finishin-Last",
       "third": "MexiCAN Gnomes"
     },
     {
       "year": 2009,
       "champion": "Lineman Rule",
-      "manager": "Daniel F",
+      "manager": "Daniel Fishman",
       "runnerUp": "The Majdic",
       "third": "Mighty Hamsters"
     },
     {
       "year": 2008,
       "champion": "The Majdic",
-      "manager": "Nima",
+      "manager": "Nima Majd",
       "runnerUp": "Amish Rake Fight",
       "third": "Mighty Hamsters"
     },
     {
       "year": 2007,
       "champion": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "runnerUp": "The Majdic",
       "third": "MexiCAN Gnomes"
     },
     {
       "year": 2006,
       "champion": "Lineman Rule",
-      "manager": "Daniel F",
+      "manager": "Daniel Fishman",
       "runnerUp": "DawgSoldiers",
       "third": "The Majdic"
     },
     {
       "year": 2005,
       "champion": "Lineman Rule",
-      "manager": "Daniel F",
+      "manager": "Daniel Fishman",
       "runnerUp": "Little Strong Women",
       "third": "Hahahahahahaha's"
     },
     {
       "year": 2004,
       "champion": "Quint Connection",
-      "manager": "Unknown",
+      "manager": "Daniel Kohl",
       "runnerUp": "Lineman Rule",
       "third": "Little Strong Women"
     }
   ],
   "championshipCounts": {
-    "Mighty Hamsters (John)": 7,
-    "The Majdic (Nima)": 4,
-    "Lineman Rule (Daniel F)": 3,
-    "Hahahahahahaha's (job)": 2,
-    "DocBallerPHDs (Doc)": 1,
-    "Fumblerooskis": 1,
+    "Mighty Hamsters (JJ Bowling)": 7,
+    "The Majdic (Nima Majd)": 4,
+    "Lineman Rule (Daniel Fishman)": 3,
+    "Hahahahahahaha's (Joe Cioffi)": 2,
+    "DocBallerPHDs (Jackson \"Doc\" Marsteller)": 1,
+    "Fumblerooskis (Andy Barnes)": 1,
     "MexiCAN Gnomes (Brad Head)": 1,
-    "Amish Rake Fight (Yoseph)": 1,
-    "MYBITCHES (AustinB)": 1,
-    "Quint Connection": 1
+    "Amish Rake Fight (Yoseph Kram)": 1,
+    "MYBITCHES (Austin Browning)": 1,
+    "Quint Connection (Daniel Kohl)": 1
   },
   "dynasties": [
     {
       "team": "Mighty Hamsters",
-      "manager": "John",
+      "manager": "JJ Bowling",
       "championships": 7,
       "years": [
         2007,
@@ -191,7 +191,7 @@
     },
     {
       "team": "The Majdic",
-      "manager": "Nima",
+      "manager": "Nima Majd",
       "championships": 4,
       "years": [
         2008,
@@ -205,7 +205,7 @@
     },
     {
       "team": "Lineman Rule",
-      "manager": "Daniel F",
+      "manager": "Daniel Fishman",
       "championships": 3,
       "years": [
         2005,
