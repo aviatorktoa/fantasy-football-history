@@ -353,11 +353,12 @@ export async function getStandings(
 export async function getMatchups(
   accessToken: string,
   leagueKey: string,
-  totalWeeks: number = 17
+  totalWeeks: number = 17,
+  startWeek: number = 1
 ): Promise<Matchup[]> {
   const allMatchups: Matchup[] = [];
-  
-  for (let week = 1; week <= totalWeeks; week++) {
+
+  for (let week = startWeek; week <= totalWeeks; week++) {
     try {
       const data = await yahooApiRequest(
         `/league/${leagueKey}/scoreboard;week=${week}?format=json`,

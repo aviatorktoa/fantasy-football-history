@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
-import { YahooTokens, refreshTokens, getStandings, getMatchups, League } from '@/lib/yahoo';
+import { YahooTokens, refreshTokens, getStandings, getMatchups } from '@/lib/yahoo';
 
 const YAHOO_API_BASE = 'https://fantasysports.yahooapis.com/fantasy/v2';
 
@@ -137,6 +137,7 @@ export async function GET(request: NextRequest) {
   const leagueKey = request.nextUrl.searchParams.get('league_key') || '449.l.668900';
   const mode = request.nextUrl.searchParams.get('mode') || 'full';
   const endWeek = parseInt(request.nextUrl.searchParams.get('weeks') || '17');
+  const startWeek = parseInt(request.nextUrl.searchParams.get('start_week') || '1');
 
   try {
     if (mode === 'standings') {
@@ -145,7 +146,7 @@ export async function GET(request: NextRequest) {
     }
 
     if (mode === 'matchups') {
-      const matchups = await getMatchups(tokens.access_token, leagueKey, endWeek);
+      const matchups = await getMatchups(tokens.access_token, leagueKey, endWeek, startWeek);
       return NextResponse.json({ success: true, matchups_count: matchups.length, matchups });
     }
 
@@ -159,10 +160,9 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ success: true, count: draft.length, draft });
     }
 
-    // Full mode: standings + matchups + transactions + draft
-    const [standings, matchups, transactions, draft] = await Promise.all([
+    // Full mode: standings + transactions + draft (no matchups - too slow)
+    const [standings, transactions, draft] = await Promise.all([
       getStandings(tokens.access_token, leagueKey),
-      getMatchups(tokens.access_token, leagueKey, endWeek),
       getTransactions(tokens.access_token, leagueKey),
       getDraftResults(tokens.access_token, leagueKey),
     ]);
@@ -171,7 +171,6 @@ export async function GET(request: NextRequest) {
       success: true,
       league_key: leagueKey,
       standings,
-      matchups,
       transactions,
       draft,
     });
